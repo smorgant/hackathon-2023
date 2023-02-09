@@ -1,12 +1,12 @@
 {
-  "flight": [
+  "flights": [
     {
       "id": 1,
       "code_letter": "BA",
       "code_number": "474"
     }
   ],
-  "profile": {
+  "profiles": {
     "name": "typicode"
   }
 }
