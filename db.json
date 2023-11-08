@@ -11,8 +11,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1200,
-        "CreatedOnUtc": "7/8/2022 12:40:05 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:05 AM",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -47,8 +45,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1259,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 3,
@@ -76,8 +72,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 500,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 4,
@@ -105,8 +99,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1800,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -141,8 +133,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1500,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 7,
@@ -170,8 +160,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1590,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 8,
@@ -199,8 +187,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1350,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -235,8 +221,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1460,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 11,
@@ -264,8 +248,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1360,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 12,
@@ -293,8 +275,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 75,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 13,
@@ -322,8 +302,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 65,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 14,
@@ -351,8 +329,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 54.99,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 15,
@@ -380,8 +356,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 670,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -416,8 +390,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 670,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 18,
@@ -438,8 +410,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 630,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 19,
@@ -460,8 +430,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 530,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 20,
@@ -489,8 +457,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1300,
-        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 21,
@@ -518,8 +484,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 245,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 22,
@@ -547,8 +511,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 100,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -583,8 +545,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 349,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 25,
@@ -612,8 +572,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 79.99,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -648,8 +606,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 39,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 28,
@@ -677,8 +633,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 37,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 29,
@@ -706,8 +660,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 40,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -742,8 +694,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 27.56,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 36,
@@ -771,8 +721,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 24,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 37,
@@ -800,8 +748,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 15,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 38,
@@ -829,8 +775,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 43.5,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -865,8 +809,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 30,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 41,
@@ -894,8 +836,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 0,
         "Price": 45,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 42,
@@ -923,8 +863,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 25,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 43,
@@ -952,8 +890,6 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 2.8,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 44,
@@ -981,8 +917,6 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 0,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 45,
@@ -1010,8 +944,6 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 0,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 46,
@@ -1039,8 +971,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 27,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 47,
@@ -1068,8 +998,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 51,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 48,
@@ -1097,8 +1025,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 24,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 49,
@@ -1126,8 +1052,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 30,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 50,
@@ -1155,8 +1079,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 360,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 51,
@@ -1184,8 +1106,6 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 2100,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 52,
@@ -1213,8 +1133,6 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 25,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 53,
@@ -1242,8 +1160,6 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 50,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 54,
@@ -1271,8 +1187,6 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 100,
-        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 55,
