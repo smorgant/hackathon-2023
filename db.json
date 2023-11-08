@@ -35,8 +35,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 2,
@@ -66,8 +65,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 3,
@@ -97,8 +95,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 4,
@@ -135,34 +132,6 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": [
-            {
-              "ProductSpecificationAttributeId": 1,
-              "SpecificationAttributeOptionId": 1,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 1
-            },
-            {
-              "ProductSpecificationAttributeId": 2,
-              "SpecificationAttributeOptionId": 6,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 2
-            },
-            {
-              "ProductSpecificationAttributeId": 3,
-              "SpecificationAttributeOptionId": 8,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 3
-            }
-          ]
         }
       },
       {
@@ -193,42 +162,6 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": [
-            {
-              "ProductSpecificationAttributeId": 4,
-              "SpecificationAttributeOptionId": 5,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 1
-            },
-            {
-              "ProductSpecificationAttributeId": 5,
-              "SpecificationAttributeOptionId": 7,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 2
-            },
-            {
-              "ProductSpecificationAttributeId": 6,
-              "SpecificationAttributeOptionId": 10,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 3
-            },
-            {
-              "ProductSpecificationAttributeId": 7,
-              "SpecificationAttributeOptionId": 13,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 4
-            }
-          ]
         }
       },
       {
@@ -259,42 +192,6 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": [
-            {
-              "ProductSpecificationAttributeId": 8,
-              "SpecificationAttributeOptionId": 4,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 1
-            },
-            {
-              "ProductSpecificationAttributeId": 9,
-              "SpecificationAttributeOptionId": 6,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 2
-            },
-            {
-              "ProductSpecificationAttributeId": 10,
-              "SpecificationAttributeOptionId": 9,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 3
-            },
-            {
-              "ProductSpecificationAttributeId": 11,
-              "SpecificationAttributeOptionId": 11,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 4
-            }
-          ]
         }
       },
       {
@@ -332,42 +229,6 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": [
-            {
-              "ProductSpecificationAttributeId": 12,
-              "SpecificationAttributeOptionId": 2,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 1
-            },
-            {
-              "ProductSpecificationAttributeId": 13,
-              "SpecificationAttributeOptionId": 6,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 2
-            },
-            {
-              "ProductSpecificationAttributeId": 14,
-              "SpecificationAttributeOptionId": 8,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 3
-            },
-            {
-              "ProductSpecificationAttributeId": 15,
-              "SpecificationAttributeOptionId": 11,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 4
-            }
-          ]
         }
       },
       {
@@ -398,42 +259,6 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": [
-            {
-              "ProductSpecificationAttributeId": 16,
-              "SpecificationAttributeOptionId": 5,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 1
-            },
-            {
-              "ProductSpecificationAttributeId": 17,
-              "SpecificationAttributeOptionId": 7,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 2
-            },
-            {
-              "ProductSpecificationAttributeId": 18,
-              "SpecificationAttributeOptionId": 9,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 3
-            },
-            {
-              "ProductSpecificationAttributeId": 19,
-              "SpecificationAttributeOptionId": 12,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 4
-            }
-          ]
         }
       },
       {
@@ -464,26 +289,6 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": [
-            {
-              "ProductSpecificationAttributeId": 20,
-              "SpecificationAttributeOptionId": 3,
-              "CustomValue": "",
-              "AllowFiltering": "False",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 1
-            },
-            {
-              "ProductSpecificationAttributeId": 21,
-              "SpecificationAttributeOptionId": 7,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "True",
-              "DisplayOrder": 2
-            }
-          ]
         }
       },
       {
@@ -514,8 +319,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 11,
@@ -545,8 +349,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 12,
@@ -576,8 +379,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 13,
@@ -614,8 +416,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 14,
@@ -638,8 +439,7 @@
             "DisplayOrder": 1
           }
         },
-        "ProductCategories": "",
-        "ProductSpecificationAttributes": ""
+        "ProductCategories": ""
       },
       {
         "ProductId": 15,
@@ -662,8 +462,7 @@
             "DisplayOrder": 1
           }
         },
-        "ProductCategories": "",
-        "ProductSpecificationAttributes": ""
+        "ProductCategories": ""
       },
       {
         "ProductId": 16,
@@ -693,8 +492,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 3
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 17,
@@ -724,8 +522,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 2
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 18,
@@ -755,8 +552,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 19,
@@ -793,8 +589,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 20,
@@ -824,8 +619,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 21,
@@ -862,8 +656,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 22,
@@ -893,8 +686,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 23,
@@ -924,8 +716,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 24,
@@ -962,16 +753,6 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": {
-            "ProductSpecificationAttributeId": 22,
-            "SpecificationAttributeOptionId": 14,
-            "CustomValue": "",
-            "AllowFiltering": "True",
-            "ShowOnProductPage": "False",
-            "DisplayOrder": 1
-          }
         }
       },
       {
@@ -1002,8 +783,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 28,
@@ -1033,8 +813,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 29,
@@ -1064,8 +843,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 30,
@@ -1102,8 +880,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 31,
@@ -1133,8 +910,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 32,
@@ -1164,8 +940,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 33,
@@ -1195,8 +970,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 34,
@@ -1226,8 +1000,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 35,
@@ -1257,8 +1030,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 36,
@@ -1288,8 +1060,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 37,
@@ -1319,8 +1090,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 38,
@@ -1350,8 +1120,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 39,
@@ -1381,8 +1150,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 40,
@@ -1412,8 +1180,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 41,
@@ -1443,8 +1210,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 42,
@@ -1474,8 +1240,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 1
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 43,
@@ -1505,8 +1270,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 2
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 44,
@@ -1536,8 +1300,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 3
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       },
       {
         "ProductId": 45,
@@ -1567,8 +1330,7 @@
             "IsFeaturedProduct": "False",
             "DisplayOrder": 4
           }
-        },
-        "ProductSpecificationAttributes": ""
+        }
       }
     ]
 
