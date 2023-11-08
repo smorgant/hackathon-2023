@@ -1,5 +1,5 @@
 {
-    "Products": [
+    "Product": [
       {
         "ProductId": 1,
         "Name": "Build your own computer",
@@ -12,290 +12,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1200,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:05 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:05 AM",
-        "ProductAttributes": {
-          "ProductAttributeMapping": [
-            {
-              "ProductAttributeMappingId": 1,
-              "ProductAttributeId": 6,
-              "ProductAttributeName": "Processor",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 1,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 1,
-                    "Name": "2.2 GHz Intel Pentium Dual-Core E2200",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 1,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 2,
-                    "Name": "2.5 GHz Intel Pentium Dual-Core E2200",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 15,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "True",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  }
-                ]
-              }
-            },
-            {
-              "ProductAttributeMappingId": 2,
-              "ProductAttributeId": 7,
-              "ProductAttributeName": "RAM",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 1,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 3,
-                    "Name": "2 GB",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 1,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 4,
-                    "Name": "4GB",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 20,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 5,
-                    "Name": "8GB",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 60,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 3,
-                    "PictureId": 0
-                  }
-                ]
-              }
-            },
-            {
-              "ProductAttributeMappingId": 3,
-              "ProductAttributeId": 4,
-              "ProductAttributeName": "HDD",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 2,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 6,
-                    "Name": "320 GB",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 1,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 7,
-                    "Name": "400 GB",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 100,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  }
-                ]
-              }
-            },
-            {
-              "ProductAttributeMappingId": 4,
-              "ProductAttributeId": 5,
-              "ProductAttributeName": "OS",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 2,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 8,
-                    "Name": "Vista Home",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 50,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "True",
-                    "DisplayOrder": 1,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 9,
-                    "Name": "Vista Premium",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 60,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  }
-                ]
-              }
-            },
-            {
-              "ProductAttributeMappingId": 5,
-              "ProductAttributeId": 9,
-              "ProductAttributeName": "Software",
-              "TextPrompt": "",
-              "IsRequired": "False",
-              "AttributeControlTypeId": 3,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 10,
-                    "Name": "Microsoft Office",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 50,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "True",
-                    "DisplayOrder": 1,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 11,
-                    "Name": "Acrobat Reader",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 10,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 12,
-                    "Name": "Total Commander",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 5,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  }
-                ]
-              }
-            }
-          ]
-        },
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -332,13 +50,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1259,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 3,
@@ -368,13 +81,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 500,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 4,
@@ -404,13 +112,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1800,
-        "Weight": 3,
-        "Length": 3,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -474,13 +177,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1500,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 7,
@@ -545,13 +243,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1590,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 8,
@@ -616,13 +309,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1350,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -694,13 +382,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1460,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 11,
@@ -765,13 +448,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1360,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 12,
@@ -820,13 +498,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 75,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 3,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 13,
@@ -856,13 +529,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 65,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 3,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 14,
@@ -892,13 +560,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 54.99,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 15,
@@ -928,13 +591,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 670,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -971,13 +629,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 670,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 18,
@@ -1000,13 +653,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 630,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 19,
@@ -1029,13 +677,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 530,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 20,
@@ -1065,13 +708,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 1300,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:06 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 21,
@@ -1101,13 +739,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 245,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:07 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 22,
@@ -1137,13 +770,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 100,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:07 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -1180,13 +808,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 349,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:07 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 25,
@@ -1216,13 +839,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 79.99,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 3,
         "CreatedOnUtc": "7/8/2022 12:40:07 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -1259,13 +877,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 39,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 3,
         "CreatedOnUtc": "7/8/2022 12:40:07 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 28,
@@ -1295,13 +908,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 37,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:07 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 29,
@@ -1331,194 +939,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 40,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:07 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": {
-          "ProductAttributeMapping": [
-            {
-              "ProductAttributeMappingId": 6,
-              "ProductAttributeId": 8,
-              "ProductAttributeName": "Size",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 1,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 13,
-                    "Name": 8,
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 1,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 14,
-                    "Name": 9,
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 15,
-                    "Name": 10,
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 3,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 16,
-                    "Name": 11,
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 4,
-                    "PictureId": 0
-                  }
-                ]
-              }
-            },
-            {
-              "ProductAttributeMappingId": 7,
-              "ProductAttributeId": 1,
-              "ProductAttributeName": "Color",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 1,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 17,
-                    "Name": "White/Blue",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 1,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 18,
-                    "Name": "White/Black",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  }
-                ]
-              }
-            },
-            {
-              "ProductAttributeMappingId": 8,
-              "ProductAttributeId": 2,
-              "ProductAttributeName": "Print",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 45,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 19,
-                    "Name": "Natural",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 51,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 1,
-                    "PictureId": 49
-                  },
-                  {
-                    "ProductAttributeValueId": 20,
-                    "Name": "Fresh",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 52,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 50
-                  }
-                ]
-              }
-            }
-          ]
-        },
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -1564,400 +986,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 27.56,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:07 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": {
-          "ProductAttributeMapping": [
-            {
-              "ProductAttributeMappingId": 9,
-              "ProductAttributeId": 8,
-              "ProductAttributeName": "Size",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 1,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 21,
-                    "Name": 8,
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 1,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 22,
-                    "Name": 9,
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 23,
-                    "Name": 10,
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 3,
-                    "PictureId": 0
-                  },
-                  {
-                    "ProductAttributeValueId": 24,
-                    "Name": 11,
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 4,
-                    "PictureId": 0
-                  }
-                ]
-              }
-            },
-            {
-              "ProductAttributeMappingId": 10,
-              "ProductAttributeId": 1,
-              "ProductAttributeName": "Color",
-              "TextPrompt": "",
-              "IsRequired": "True",
-              "AttributeControlTypeId": 40,
-              "DisplayOrder": 0,
-              "ConditionAttributeXml": "",
-              "ProductAttributeValues": {
-                "ProductAttributeValue": [
-                  {
-                    "ProductAttributeValueId": 25,
-                    "Name": "Red",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "#663030",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "True",
-                    "DisplayOrder": 1,
-                    "PictureId": 53
-                  },
-                  {
-                    "ProductAttributeValueId": 26,
-                    "Name": "Blue",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "#363656",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 2,
-                    "PictureId": 54
-                  },
-                  {
-                    "ProductAttributeValueId": 27,
-                    "Name": "Silver",
-                    "AttributeValueTypeId": 0,
-                    "AssociatedProductId": 0,
-                    "ColorSquaresRgb": "#c5c5d5",
-                    "ImageSquaresPictureId": 0,
-                    "PriceAdjustment": 0,
-                    "PriceAdjustmentUsePercentage": "False",
-                    "WeightAdjustment": 0,
-                    "Cost": 0,
-                    "CustomerEntersQty": "False",
-                    "Quantity": 0,
-                    "IsPreSelected": "False",
-                    "DisplayOrder": 3,
-                    "PictureId": 55
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "ProductPictures": {
-          "ProductPicture": [
-            {
-              "ProductPictureId": 32,
-              "PictureId": 53,
-              "DisplayOrder": 1
-            },
-            {
-              "ProductPictureId": 33,
-              "PictureId": 54,
-              "DisplayOrder": 2
-            },
-            {
-              "ProductPictureId": 34,
-              "PictureId": 55,
-              "DisplayOrder": 3
-            }
-          ]
-        },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 23,
-            "CategoryId": 10,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": [
-            {
-              "ProductSpecificationAttributeId": 23,
-              "SpecificationAttributeOptionId": 14,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "False",
-              "DisplayOrder": 1
-            },
-            {
-              "ProductSpecificationAttributeId": 24,
-              "SpecificationAttributeOptionId": 15,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "False",
-              "DisplayOrder": 2
-            },
-            {
-              "ProductSpecificationAttributeId": 25,
-              "SpecificationAttributeOptionId": 16,
-              "CustomValue": "",
-              "AllowFiltering": "True",
-              "ShowOnProductPage": "False",
-              "DisplayOrder": 3
-            }
-          ]
-        }
-      },
-      {
-        "ProductId": 26,
-        "Name": "Nike SB Zoom Stefan Janoski \"Medium Mint\"",
-        "ShortDescription": "Nike SB Zoom Stefan Janoski Dark Grey Medium Mint Teal ...",
-        "FullDescription": "The newly Nike SB Zoom Stefan Janoski gets hit with a \"Medium Mint\" accents that sits atop a Dark Grey suede. Expected to drop in October.",
-        "SKU": "NK_ZSJ_MM",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 5,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 30,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": "",
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 35,
-            "PictureId": 56,
-            "DisplayOrder": 1
-          }
-        },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 24,
-            "CategoryId": 10,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        },
-        "ProductSpecificationAttributes": {
-          "ProductSpecificationAttribute": {
-            "ProductSpecificationAttributeId": 26,
-            "SpecificationAttributeOptionId": 14,
-            "CustomValue": "",
-            "AllowFiltering": "True",
-            "ShowOnProductPage": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 27,
-        "Name": "Nike Tailwind Loose Short-Sleeve Running Shirt",
-        "ShortDescription": "",
-        "FullDescription": "&lt;p&gt;Boost your adrenaline with the Nike® Women's Tailwind Running Shirt. The lightweight, slouchy fit is great for layering, and moisture-wicking fabrics keep you feeling at your best. This tee has a notched hem for an enhanced range of motion, while flat seams with reinforcement tape lessen discomfort and irritation over longer distances. Put your keys and card in the side zip pocket and take off in your Nike® running t-shirt.&lt;/p&gt;",
-        "SKU": "NK_TLS_RS",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 5,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 15,
-        "Weight": 1,
-        "Length": 2,
-        "Width": 3,
-        "Height": 3,
-        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
-        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
-        "ProductAttributes": {
-          "ProductAttributeMapping": {
-            "ProductAttributeMappingId": 11,
-            "ProductAttributeId": 8,
-            "ProductAttributeName": "Size",
-            "TextPrompt": "",
-            "IsRequired": "True",
-            "AttributeControlTypeId": 1,
-            "DisplayOrder": 0,
-            "ConditionAttributeXml": "",
-            "ProductAttributeValues": {
-              "ProductAttributeValue": [
-                {
-                  "ProductAttributeValueId": 28,
-                  "Name": "Small",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 1,
-                  "PictureId": 0
-                },
-                {
-                  "ProductAttributeValueId": 29,
-                  "Name": "1X",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 2,
-                  "PictureId": 0
-                },
-                {
-                  "ProductAttributeValueId": 30,
-                  "Name": "2X",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 3,
-                  "PictureId": 0
-                },
-                {
-                  "ProductAttributeValueId": 31,
-                  "Name": "3X",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 4,
-                  "PictureId": 0
-                },
-                {
-                  "ProductAttributeValueId": 32,
-                  "Name": "4X",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 5,
-                  "PictureId": 0
-                },
-                {
-                  "ProductAttributeValueId": 33,
-                  "Name": "5X",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 6,
-                  "PictureId": 0
-                }
-              ]
-            }
-          }
-        },
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 36,
@@ -1987,13 +1017,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 24,
-        "Weight": 4,
-        "Length": 3,
-        "Width": 3,
-        "Height": 3,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 37,
@@ -2023,27 +1048,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 15,
-        "Weight": 4,
-        "Length": 3,
-        "Width": 3,
-        "Height": 3,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": {
-          "ProductAttributeMapping": {
-            "ProductAttributeMappingId": 12,
-            "ProductAttributeId": 3,
-            "ProductAttributeName": "Custom Text",
-            "TextPrompt": "Enter your text:",
-            "IsRequired": "True",
-            "AttributeControlTypeId": 4,
-            "DisplayOrder": 0,
-            "ValidationFileAllowedExtensions": "",
-            "DefaultValue": "",
-            "ConditionAttributeXml": "",
-            "ProductAttributeValues": ""
-          }
-        },
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 38,
@@ -2073,13 +1079,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 43.5,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": [
             {
@@ -2116,96 +1117,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 30,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": {
-          "ProductAttributeMapping": {
-            "ProductAttributeMappingId": 13,
-            "ProductAttributeId": 8,
-            "ProductAttributeName": "Size",
-            "TextPrompt": "",
-            "IsRequired": "True",
-            "AttributeControlTypeId": 1,
-            "DisplayOrder": 0,
-            "ConditionAttributeXml": "",
-            "ProductAttributeValues": {
-              "ProductAttributeValue": [
-                {
-                  "ProductAttributeValueId": 34,
-                  "Name": "Small",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 1,
-                  "PictureId": 0
-                },
-                {
-                  "ProductAttributeValueId": 35,
-                  "Name": "Medium",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 2,
-                  "PictureId": 0
-                },
-                {
-                  "ProductAttributeValueId": 36,
-                  "Name": "Large",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 3,
-                  "PictureId": 0
-                },
-                {
-                  "ProductAttributeValueId": 37,
-                  "Name": "X-Large",
-                  "AttributeValueTypeId": 0,
-                  "AssociatedProductId": 0,
-                  "ColorSquaresRgb": "",
-                  "ImageSquaresPictureId": 0,
-                  "PriceAdjustment": 0,
-                  "PriceAdjustmentUsePercentage": "False",
-                  "WeightAdjustment": 0,
-                  "Cost": 0,
-                  "CustomerEntersQty": "False",
-                  "Quantity": 0,
-                  "IsPreSelected": "False",
-                  "DisplayOrder": 4,
-                  "PictureId": 0
-                }
-              ]
-            }
-          }
-        },
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 41,
@@ -2235,13 +1148,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 0,
         "Price": 45,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 42,
@@ -2271,13 +1179,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 25,
-        "Weight": 7,
-        "Length": 7,
-        "Width": 7,
-        "Height": 7,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 43,
@@ -2307,13 +1210,8 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 2.8,
-        "Weight": 0,
-        "Length": 0,
-        "Width": 0,
-        "Height": 0,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 44,
@@ -2343,13 +1241,8 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 0,
-        "Weight": 0,
-        "Length": 0,
-        "Width": 0,
-        "Height": 0,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 45,
@@ -2379,13 +1272,8 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 0,
-        "Weight": 0,
-        "Length": 0,
-        "Width": 0,
-        "Height": 0,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 46,
@@ -2415,13 +1303,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 27,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 47,
@@ -2451,13 +1334,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 51,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 48,
@@ -2487,13 +1365,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 24,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 49,
@@ -2523,13 +1396,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 30,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 50,
@@ -2559,13 +1427,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 360,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 51,
@@ -2595,13 +1458,8 @@
         "ManageInventoryMethodId": 1,
         "StockQuantity": 10000,
         "Price": 2100,
-        "Weight": 2,
-        "Length": 2,
-        "Width": 2,
-        "Height": 2,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 52,
@@ -2631,13 +1489,8 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 25,
-        "Weight": 0,
-        "Length": 0,
-        "Width": 0,
-        "Height": 0,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 53,
@@ -2667,13 +1520,8 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 50,
-        "Weight": 1,
-        "Length": 1,
-        "Width": 1,
-        "Height": 1,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 54,
@@ -2703,13 +1551,8 @@
         "ManageInventoryMethodId": 0,
         "StockQuantity": 10000,
         "Price": 100,
-        "Weight": 1,
-        "Length": 1,
-        "Width": 1,
-        "Height": 1,
         "CreatedOnUtc": "7/8/2022 12:40:08 AM",
         "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
-        "ProductAttributes": "",
         "ProductPictures": {
           "ProductPicture": {
             "ProductPictureId": 55,
@@ -2728,4 +1571,5 @@
         "ProductSpecificationAttributes": ""
       }
     ]
+
 }
