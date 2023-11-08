@@ -1,22 +1,2731 @@
 {
-  "flights": [
-    {
-      "id": 1,
-      "code_letter": "BA",
-      "code_number": "474"
-    },
-    {
-      "id": 2,
-      "code_letter": "FR",
-      "code_number": "8503"
-    },
-    {
-      "id": 3,
-      "code_letter": "DE",
-      "code_number": "1284"
-    }
-  ],
-  "profiles": {
-    "name": "typicode"
-  }
+    "Product": [
+      {
+        "ProductId": 1,
+        "Name": "Build your own computer",
+        "ShortDescription": "Build it",
+        "FullDescription": "&lt;p&gt;Fight back against cluttered workspaces with the stylish IBM zBC12 All-in-One desktop PC, featuring powerful computing resources and a stunning 20.1-inch widescreen display with stunning XBRITE-HiColor LCD technology. The black IBM zBC12 has a built-in microphone and MOTION EYE camera with face-tracking technology that allows for easy communication with friends and family. And it has a built-in DVD burner and Sony's Movie Store software so you can create a digital entertainment library for personal viewing at your convenience. Easy to setup and even easier to use, this JS-series All-in-One includes an elegantly designed keyboard and a USB mouse.&lt;/p&gt;",
+        "SKU": "COMP_CUST",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1200,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:05 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:05 AM",
+        "ProductAttributes": {
+          "ProductAttributeMapping": [
+            {
+              "ProductAttributeMappingId": 1,
+              "ProductAttributeId": 6,
+              "ProductAttributeName": "Processor",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 1,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 1,
+                    "Name": "2.2 GHz Intel Pentium Dual-Core E2200",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 1,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 2,
+                    "Name": "2.5 GHz Intel Pentium Dual-Core E2200",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 15,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "True",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  }
+                ]
+              }
+            },
+            {
+              "ProductAttributeMappingId": 2,
+              "ProductAttributeId": 7,
+              "ProductAttributeName": "RAM",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 1,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 3,
+                    "Name": "2 GB",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 1,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 4,
+                    "Name": "4GB",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 20,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 5,
+                    "Name": "8GB",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 60,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 3,
+                    "PictureId": 0
+                  }
+                ]
+              }
+            },
+            {
+              "ProductAttributeMappingId": 3,
+              "ProductAttributeId": 4,
+              "ProductAttributeName": "HDD",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 2,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 6,
+                    "Name": "320 GB",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 1,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 7,
+                    "Name": "400 GB",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 100,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  }
+                ]
+              }
+            },
+            {
+              "ProductAttributeMappingId": 4,
+              "ProductAttributeId": 5,
+              "ProductAttributeName": "OS",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 2,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 8,
+                    "Name": "Vista Home",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 50,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "True",
+                    "DisplayOrder": 1,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 9,
+                    "Name": "Vista Premium",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 60,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  }
+                ]
+              }
+            },
+            {
+              "ProductAttributeMappingId": 5,
+              "ProductAttributeId": 9,
+              "ProductAttributeName": "Software",
+              "TextPrompt": "",
+              "IsRequired": "False",
+              "AttributeControlTypeId": 3,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 10,
+                    "Name": "Microsoft Office",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 50,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "True",
+                    "DisplayOrder": 1,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 11,
+                    "Name": "Acrobat Reader",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 10,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 12,
+                    "Name": "Total Commander",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 5,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 1,
+              "PictureId": 20,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 2,
+              "PictureId": 21,
+              "DisplayOrder": 2
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 1,
+            "CategoryId": 2,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 2,
+        "Name": "Digital Storm VANQUISH 3 Custom Performance PC",
+        "ShortDescription": "Digital Storm Vanquish 3 Desktop PC",
+        "FullDescription": "&lt;p&gt;Blow the doors off today’s most demanding games with maximum detail, speed, and power for an immersive gaming experience without breaking the bank.&lt;/p&gt;&lt;p&gt;Stay ahead of the competition, VANQUISH 3 is fully equipped to easily handle future upgrades, keeping your system on the cutting edge for years to come.&lt;/p&gt;&lt;p&gt;Each system is put through an extensive stress test, ensuring you experience zero bottlenecks and get the maximum performance from your hardware.&lt;/p&gt;",
+        "SKU": "DS_VA3_PC",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1259,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 3,
+            "PictureId": 22,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 2,
+            "CategoryId": 2,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 3,
+        "Name": "Lenovo IdeaCentre 600 All-in-One PC",
+        "ShortDescription": "",
+        "FullDescription": "&lt;p&gt;The A600 features a 21.5in screen, DVD or optional Blu-Ray drive, support for the full beans 1920 x 1080 HD, Dolby Home Cinema certification and an optional hybrid analogue/digital TV tuner.&lt;/p&gt;&lt;p&gt;Connectivity is handled by 802.11a/b/g - 802.11n is optional - and an ethernet port. You also get four USB ports, a Firewire slot, a six-in-one card reader and a 1.3- or two-megapixel webcam.&lt;/p&gt;",
+        "SKU": "LE_IC_600",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 500,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 4,
+            "PictureId": 23,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 3,
+            "CategoryId": 2,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 4,
+        "Name": "Apple MacBook Pro 13-inch",
+        "ShortDescription": "A groundbreaking Retina display. A new force-sensing trackpad. All-flash architecture. Powerful dual-core and quad-core Intel processors. Together, these features take the notebook to a new level of performance. And they will do the same for you in everything you create.",
+        "FullDescription": "&lt;p&gt;With fifth-generation Intel Core processors, the latest graphics, and faster flash storage, the incredibly advanced MacBook Pro with Retina display moves even further ahead in performance and battery life.* *Compared with the previous generation.&lt;/p&gt;&lt;p&gt;Retina display with 2560-by-1600 resolution&lt;/p&gt;&lt;p&gt;Fifth-generation dual-core Intel Core i5 processor&lt;/p&gt;&lt;p&gt;Intel Iris Graphics&lt;/p&gt;&lt;p&gt;Up to 9 hours of battery life1&lt;/p&gt;&lt;p&gt;Faster flash storage2&lt;/p&gt;&lt;p&gt;802.11ac Wi-Fi&lt;/p&gt;&lt;p&gt;Two Thunderbolt 2 ports for connecting high-performance devices and transferring data at lightning speed&lt;/p&gt;&lt;p&gt;Two USB 3 ports (compatible with USB 2 devices) and HDMI&lt;/p&gt;&lt;p&gt;FaceTime HD camera&lt;/p&gt;&lt;p&gt;Pages, Numbers, Keynote, iPhoto, iMovie, GarageBand included&lt;/p&gt;&lt;p&gt;OS X, the world's most advanced desktop operating system&lt;/p&gt;",
+        "SKU": "AP_MBP_13",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1800,
+        "Weight": 3,
+        "Length": 3,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 5,
+              "PictureId": 24,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 6,
+              "PictureId": 25,
+              "DisplayOrder": 2
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 4,
+            "CategoryId": 3,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": [
+            {
+              "ProductSpecificationAttributeId": 1,
+              "SpecificationAttributeOptionId": 1,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 1
+            },
+            {
+              "ProductSpecificationAttributeId": 2,
+              "SpecificationAttributeOptionId": 6,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 2
+            },
+            {
+              "ProductSpecificationAttributeId": 3,
+              "SpecificationAttributeOptionId": 8,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 3
+            }
+          ]
+        }
+      },
+      {
+        "ProductId": 5,
+        "Name": "Asus N551JK-XO076H Laptop",
+        "ShortDescription": "Laptop Asus N551JK Intel Core i7-4710HQ 2.5 GHz, RAM 16GB, HDD 1TB, Video NVidia GTX 850M 4GB, BluRay, 15.6, Full HD, Win 8.1",
+        "FullDescription": "&lt;p&gt;The ASUS N550JX combines cutting-edge audio and visual technology to deliver an unsurpassed multimedia experience. A full HD wide-view IPS panel is tailor-made for watching movies and the intuitive touchscreen makes for easy, seamless navigation. ASUS has paired the N550JX’s impressive display with SonicMaster Premium, co-developed with Bang &amp; Olufsen ICEpower® audio experts, for true surround sound. A quad-speaker array and external subwoofer combine for distinct vocals and a low bass that you can feel.&lt;/p&gt;",
+        "SKU": "AS_551_LP",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1500,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 7,
+            "PictureId": 26,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 5,
+            "CategoryId": 3,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": [
+            {
+              "ProductSpecificationAttributeId": 4,
+              "SpecificationAttributeOptionId": 5,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 1
+            },
+            {
+              "ProductSpecificationAttributeId": 5,
+              "SpecificationAttributeOptionId": 7,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 2
+            },
+            {
+              "ProductSpecificationAttributeId": 6,
+              "SpecificationAttributeOptionId": 10,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 3
+            },
+            {
+              "ProductSpecificationAttributeId": 7,
+              "SpecificationAttributeOptionId": 13,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 4
+            }
+          ]
+        }
+      },
+      {
+        "ProductId": 6,
+        "Name": "Samsung Series 9 NP900X4C Premium Ultrabook",
+        "ShortDescription": "Samsung Series 9 NP900X4C-A06US 15-Inch Ultrabook (1.70 GHz Intel Core i5-3317U Processor, 8GB DDR3, 128GB SSD, Windows 8) Ash Black",
+        "FullDescription": "&lt;p&gt;Designed with mobility in mind, Samsung's durable, ultra premium, lightweight Series 9 laptop (model NP900X4C-A01US) offers mobile professionals and power users a sophisticated laptop equally suited for work and entertainment. Featuring a minimalist look that is both simple and sophisticated, its polished aluminum uni-body design offers an iconic look and feel that pushes the envelope with an edge just 0.58 inches thin. This Series 9 laptop also includes a brilliant 15-inch SuperBright Plus display with HD+ technology, 128 GB Solid State Drive (SSD), 8 GB of system memory, and up to 10 hours of battery life.&lt;/p&gt;",
+        "SKU": "SM_900_PU",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1590,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 8,
+            "PictureId": 27,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 6,
+            "CategoryId": 3,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": [
+            {
+              "ProductSpecificationAttributeId": 8,
+              "SpecificationAttributeOptionId": 4,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 1
+            },
+            {
+              "ProductSpecificationAttributeId": 9,
+              "SpecificationAttributeOptionId": 6,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 2
+            },
+            {
+              "ProductSpecificationAttributeId": 10,
+              "SpecificationAttributeOptionId": 9,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 3
+            },
+            {
+              "ProductSpecificationAttributeId": 11,
+              "SpecificationAttributeOptionId": 11,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 4
+            }
+          ]
+        }
+      },
+      {
+        "ProductId": 7,
+        "Name": "HP Spectre XT Pro UltraBook",
+        "ShortDescription": "HP Spectre XT Pro UltraBook / Intel Core i5-2467M / 13.3 / 4GB / 128GB / Windows 7 Professional / Laptop",
+        "FullDescription": "&lt;p&gt;Introducing HP ENVY Spectre XT, the Ultrabook designed for those who want style without sacrificing substance. It's sleek. It's thin. And with Intel. Corer i5 processor and premium materials, it's designed to go anywhere from the bistro to the boardroom, it's unlike anything you've ever seen from HP.&lt;/p&gt;",
+        "SKU": "HP_SPX_UB",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1350,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 9,
+              "PictureId": 28,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 10,
+              "PictureId": 29,
+              "DisplayOrder": 2
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 7,
+            "CategoryId": 3,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": [
+            {
+              "ProductSpecificationAttributeId": 12,
+              "SpecificationAttributeOptionId": 2,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 1
+            },
+            {
+              "ProductSpecificationAttributeId": 13,
+              "SpecificationAttributeOptionId": 6,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 2
+            },
+            {
+              "ProductSpecificationAttributeId": 14,
+              "SpecificationAttributeOptionId": 8,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 3
+            },
+            {
+              "ProductSpecificationAttributeId": 15,
+              "SpecificationAttributeOptionId": 11,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 4
+            }
+          ]
+        }
+      },
+      {
+        "ProductId": 8,
+        "Name": "HP Envy 6-1180ca 15.6-Inch Sleekbook",
+        "ShortDescription": "HP ENVY 6-1202ea Ultrabook Beats Audio, 3rd generation Intel® CoreTM i7-3517U processor, 8GB RAM, 500GB HDD, Microsoft Windows 8, AMD Radeon HD 8750M (2 GB DDR3 dedicated)",
+        "FullDescription": "The UltrabookTM that's up for anything. Thin and light, the HP ENVY is the large screen UltrabookTM with Beats AudioTM. With a soft-touch base that makes it easy to grab and go, it's a laptop that's up for anything.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Features&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;- Windows 8 or other operating systems available&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Top performance. Stylish design. Take notice.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;- At just 19.8 mm (0.78 in) thin, the HP ENVY UltrabookTM is slim and light enough to take anywhere. It's the laptop that gets you noticed with the power to get it done.&lt;br /&gt;- With an eye-catching metal design, it's a laptop that you want to carry with you. The soft-touch, slip-resistant base gives you the confidence to carry it with ease.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;More entertaining. More gaming. More fun.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;- Own the UltrabookTM with Beats AudioTM, dual speakers, a subwoofer, and an awesome display. Your music, movies and photo slideshows will always look and sound their best.&lt;br /&gt;- Tons of video memory let you experience incredible gaming and multimedia without slowing down. Create and edit videos in a flash. And enjoy more of what you love to the fullest.&lt;br /&gt;- The HP ENVY UltrabookTM is loaded with the ports you'd expect on a world-class laptop, but on a Sleekbook instead. Like HDMI, USB, RJ-45, and a headphone jack. You get all the right connections without compromising size.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Only from HP.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;- Life heats up. That's why there's HP CoolSense technology, which automatically adjusts your notebook's temperature based on usage and conditions. It stays cool. You stay comfortable.&lt;br /&gt;- With HP ProtectSmart, your notebook's data stays safe from accidental bumps and bruises. It senses motion and plans ahead, stopping your hard drive and protecting your entire digital life.&lt;br /&gt;- Keep playing even in dimly lit rooms or on red eye flights. The optional backlit keyboard[1] is full-size so you don't compromise comfort. Backlit keyboard. Another bright idea.&lt;br /&gt;&lt;br /&gt;",
+        "SKU": "HP_ESB_15",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1460,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 11,
+            "PictureId": 30,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 8,
+            "CategoryId": 3,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": [
+            {
+              "ProductSpecificationAttributeId": 16,
+              "SpecificationAttributeOptionId": 5,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 1
+            },
+            {
+              "ProductSpecificationAttributeId": 17,
+              "SpecificationAttributeOptionId": 7,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 2
+            },
+            {
+              "ProductSpecificationAttributeId": 18,
+              "SpecificationAttributeOptionId": 9,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 3
+            },
+            {
+              "ProductSpecificationAttributeId": 19,
+              "SpecificationAttributeOptionId": 12,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 4
+            }
+          ]
+        }
+      },
+      {
+        "ProductId": 9,
+        "Name": "Lenovo Thinkpad X1 Carbon Laptop",
+        "ShortDescription": "Lenovo Thinkpad X1 Carbon Touch Intel Core i7 14 Ultrabook",
+        "FullDescription": "&lt;p&gt;The X1 Carbon brings a new level of quality to the ThinkPad legacy of high standards and innovation. It starts with the durable, carbon fiber-reinforced roll cage, making for the best Ultrabook construction available, and adds a host of other new features on top of the old favorites. Because for 20 years, we haven't stopped innovating. And you shouldn't stop benefiting from that.&lt;/p&gt;",
+        "SKU": "LE_TX1_CL",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1360,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 12,
+            "PictureId": 31,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 9,
+            "CategoryId": 3,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": [
+            {
+              "ProductSpecificationAttributeId": 20,
+              "SpecificationAttributeOptionId": 3,
+              "CustomValue": "",
+              "AllowFiltering": "False",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 1
+            },
+            {
+              "ProductSpecificationAttributeId": 21,
+              "SpecificationAttributeOptionId": 7,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "True",
+              "DisplayOrder": 2
+            }
+          ]
+        }
+      },
+      {
+        "ProductId": 10,
+        "Name": "Adobe Photoshop CS4",
+        "ShortDescription": "Easily find and view all your photos",
+        "FullDescription": "&lt;p&gt;Adobe Photoshop CS4 software combines power and simplicity so you can make ordinary photos extraordinary; tell engaging stories in beautiful, personalized creations for print and web; and easily find and view all your photos. New Photoshop.com membership* works with Photoshop CS4 so you can protect your photos with automatic online backup and 2 GB of storage; view your photos anywhere you are; and share your photos in fun, interactive ways with invitation-only Online Albums.&lt;/p&gt;",
+        "SKU": "AD_CS4_PH",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 75,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 3,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 13,
+            "PictureId": 32,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 10,
+            "CategoryId": 4,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 11,
+        "Name": "Windows 8 Pro",
+        "ShortDescription": "Windows 8 is a Microsoft operating system that was released in 2012 as part of the company's Windows NT OS family.",
+        "FullDescription": "&lt;p&gt;Windows 8 Pro is comparable to Windows 7 Professional and Ultimate and is targeted towards enthusiasts and business users; it includes all the features of Windows 8. Additional features include the ability to receive Remote Desktop connections, the ability to participate in a Windows Server domain, Encrypting File System, Hyper-V, and Virtual Hard Disk Booting, Group Policy as well as BitLocker and BitLocker To Go. Windows Media Center functionality is available only for Windows 8 Pro as a separate software package.&lt;/p&gt;",
+        "SKU": "MS_WIN_8P",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 65,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 3,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 14,
+            "PictureId": 33,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 11,
+            "CategoryId": 4,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 12,
+        "Name": "Sound Forge Pro 11 (recurring)",
+        "ShortDescription": "Advanced audio waveform editor.",
+        "FullDescription": "&lt;p&gt;Sound Forge™ Pro is the application of choice for a generation of creative and prolific artists, producers, and editors. Record audio quickly on a rock-solid platform, address sophisticated audio processing tasks with surgical precision, and render top-notch master files with ease. New features include one-touch recording, metering for the new critical standards, more repair and restoration tools, and exclusive round-trip interoperability with SpectraLayers Pro. Taken together, these enhancements make this edition of Sound Forge Pro the deepest and most advanced audio editing platform available.&lt;/p&gt;",
+        "SKU": "SF_PRO_11",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 54.99,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 15,
+            "PictureId": 34,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 12,
+            "CategoryId": 4,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 13,
+        "Name": "Nikon D5500 DSLR",
+        "ShortDescription": "Slim, lightweight Nikon D5500 packs a vari-angle touchscreen",
+        "FullDescription": "Nikon has announced its latest DSLR, the D5500. A lightweight, compact DX-format camera with a 24.2MP sensor, it’s the first of its type to offer a vari-angle touchscreen. The D5500 replaces the D5300 in Nikon’s range, and while it offers much the same features the company says it’s a much slimmer and lighter prospect. There’s a deep grip for easier handling and built-in Wi-Fi that lets you transfer and share shots via your phone or tablet.",
+        "SKU": "N5500DS_0",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 670,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 16,
+              "PictureId": 35,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 17,
+              "PictureId": 36,
+              "DisplayOrder": 2
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 13,
+            "CategoryId": 6,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 14,
+        "Name": "Nikon D5500 DSLR - Black",
+        "ShortDescription": "",
+        "FullDescription": "",
+        "SKU": "N5500DS_B",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 670,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 18,
+            "PictureId": 37,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": "",
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 15,
+        "Name": "Nikon D5500 DSLR - Red",
+        "ShortDescription": "",
+        "FullDescription": "",
+        "SKU": "N5500DS_R",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 630,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 19,
+            "PictureId": 38,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": "",
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 16,
+        "Name": "Leica T Mirrorless Digital Camera",
+        "ShortDescription": "Leica T (Typ 701) Silver",
+        "FullDescription": "&lt;p&gt;The new Leica T offers a minimalist design that's crafted from a single block of aluminum.  Made in Germany and assembled by hand, this 16.3 effective mega pixel camera is easy to use.  With a massive 3.7 TFT LCD intuitive touch screen control, the user is able to configure and save their own menu system.  The Leica T has outstanding image quality and also has 16GB of built in memory.  This is Leica's first system camera to use Wi-Fi.  Add the T-App to your portable iOS device and be able to transfer and share your images (free download from the Apple App Store)&lt;/p&gt;",
+        "SKU": "LT_MIR_DC",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 530,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 20,
+            "PictureId": 39,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 14,
+            "CategoryId": 6,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 3
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 17,
+        "Name": "Apple iCam",
+        "ShortDescription": "Photography becomes smart",
+        "FullDescription": "&lt;p&gt;A few months ago we featured the amazing WVIL camera, by many considered the future of digital photography. This is another very good looking concept, iCam is the vision of Italian designer Antonio DeRosa, the idea is to have a device that attaches to the iPhone 5, which then allows the user to have a camera with interchangeable lenses. The device would also feature a front-touch screen and a projector. Would be great if apple picked up on this and made it reality.&lt;/p&gt;",
+        "SKU": "APPLE_CAM",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 1300,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:06 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:06 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 21,
+            "PictureId": 40,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 15,
+            "CategoryId": 6,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 2
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 18,
+        "Name": "HTC One M8 Android L 5.0 Lollipop",
+        "ShortDescription": "HTC - One (M8) 4G LTE Cell Phone with 32GB Memory - Gunmetal (Sprint)",
+        "FullDescription": "&lt;p&gt;&lt;b&gt;HTC One (M8) Cell Phone for Sprint:&lt;/b&gt; With its brushed-metal design and wrap-around unibody frame, the HTC One (M8) is designed to fit beautifully in your hand. It's fun to use with amped up sound and a large Full HD touch screen, and intuitive gesture controls make it seem like your phone almost knows what you need before you do. &lt;br /&gt;&lt;br /&gt;Sprint Easy Pay option available in store.&lt;/p&gt;",
+        "SKU": "M8_HTC_5L",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 245,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 22,
+            "PictureId": 41,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 16,
+            "CategoryId": 7,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 19,
+        "Name": "HTC One Mini Blue",
+        "ShortDescription": "HTC One and HTC One Mini now available in bright blue hue",
+        "FullDescription": "&lt;p&gt;HTC One mini smartphone with 4.30-inch 720x1280 display powered by 1.4GHz processor alongside 1GB RAM and 4-Ultrapixel rear camera.&lt;/p&gt;",
+        "SKU": "OM_HTC_BL",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 100,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 23,
+              "PictureId": 42,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 24,
+              "PictureId": 43,
+              "DisplayOrder": 2
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 17,
+            "CategoryId": 7,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 20,
+        "Name": "Nokia Lumia 1020",
+        "ShortDescription": "Nokia Lumia 1020 4G Cell Phone (Unlocked)",
+        "FullDescription": "&lt;p&gt;Capture special moments for friends and family with this Nokia Lumia 1020 32GB WHITE cell phone that features an easy-to-use 41.0MP rear-facing camera and a 1.2MP front-facing camera. The AMOLED touch screen offers 768 x 1280 resolution for crisp visuals.&lt;/p&gt;",
+        "SKU": "N_1020_LU",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 349,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 25,
+            "PictureId": 44,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 18,
+            "CategoryId": 7,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 21,
+        "Name": "Beats Pill 2.0 Wireless Speaker",
+        "ShortDescription": "&lt;b&gt;Pill 2.0 Portable Bluetooth Speaker (1-Piece):&lt;/b&gt; Watch your favorite movies and listen to music with striking sound quality. This lightweight, portable speaker is easy to take with you as you travel to any destination, keeping you entertained wherever you are.",
+        "FullDescription": "&lt;ul&gt;&lt;li&gt;Pair and play with your Bluetooth® device with 30 foot range&lt;/li&gt;&lt;li&gt;Built-in speakerphone&lt;/li&gt;&lt;li&gt;7 hour rechargeable battery&lt;/li&gt;&lt;li&gt;Power your other devices with USB charge out&lt;/li&gt;&lt;li&gt;Tap two Beats Pills™ together for twice the sound with Beats Bond™&lt;/li&gt;&lt;/ul&gt;",
+        "SKU": "BP_20_WSP",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 79.99,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 3,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 26,
+              "PictureId": 45,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 27,
+              "PictureId": 46,
+              "DisplayOrder": 2
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 19,
+            "CategoryId": 8,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 22,
+        "Name": "Universal 7-8 Inch Tablet Cover",
+        "ShortDescription": "Universal protection for 7-inch &amp; 8-inch tablets",
+        "FullDescription": "&lt;p&gt;Made of durable polyurethane, our Universal Cover is slim, lightweight, and strong, with protective corners that stretch to hold most 7 and 8-inch tablets securely. This tough case helps protects your tablet from bumps, scuffs, and dings.&lt;/p&gt;",
+        "SKU": "TC_78I_UN",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 39,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 3,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 28,
+            "PictureId": 47,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 20,
+            "CategoryId": 8,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 23,
+        "Name": "Portable Sound Speakers",
+        "ShortDescription": "Universall portable sound speakers",
+        "FullDescription": "&lt;p&gt;Your phone cut the cord, now it's time for you to set your music free and buy a Bluetooth speaker. Thankfully, there's one suited for everyone out there.&lt;/p&gt;&lt;p&gt;Some Bluetooth speakers excel at packing in as much functionality as the unit can handle while keeping the price down. Other speakers shuck excess functionality in favor of premium build materials instead. Whatever path you choose to go down, you'll be greeted with many options to suit your personal tastes.&lt;/p&gt;",
+        "SKU": "PT_SPK_SN",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 2,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 37,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 29,
+            "PictureId": 48,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 21,
+            "CategoryId": 8,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 24,
+        "Name": "Nike Floral Roshe Customized Running Shoes",
+        "ShortDescription": "When you ran across these shoes, you will immediately fell in love and needed a pair of these customized beauties.",
+        "FullDescription": "&lt;p&gt;Each Rosh Run is personalized and exclusive, handmade in our workshop Custom. Run Your Rosh creations born from the hand of an artist specialized in sneakers, more than 10 years of experience.&lt;/p&gt;",
+        "SKU": "NK_FRC_RS",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 40,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": {
+          "ProductAttributeMapping": [
+            {
+              "ProductAttributeMappingId": 6,
+              "ProductAttributeId": 8,
+              "ProductAttributeName": "Size",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 1,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 13,
+                    "Name": 8,
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 1,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 14,
+                    "Name": 9,
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 15,
+                    "Name": 10,
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 3,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 16,
+                    "Name": 11,
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 4,
+                    "PictureId": 0
+                  }
+                ]
+              }
+            },
+            {
+              "ProductAttributeMappingId": 7,
+              "ProductAttributeId": 1,
+              "ProductAttributeName": "Color",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 1,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 17,
+                    "Name": "White/Blue",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 1,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 18,
+                    "Name": "White/Black",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  }
+                ]
+              }
+            },
+            {
+              "ProductAttributeMappingId": 8,
+              "ProductAttributeId": 2,
+              "ProductAttributeName": "Print",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 45,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 19,
+                    "Name": "Natural",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 51,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 1,
+                    "PictureId": 49
+                  },
+                  {
+                    "ProductAttributeValueId": 20,
+                    "Name": "Fresh",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 52,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 50
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 30,
+              "PictureId": 49,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 31,
+              "PictureId": 50,
+              "DisplayOrder": 2
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 22,
+            "CategoryId": 10,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": {
+            "ProductSpecificationAttributeId": 22,
+            "SpecificationAttributeOptionId": 14,
+            "CustomValue": "",
+            "AllowFiltering": "True",
+            "ShowOnProductPage": "False",
+            "DisplayOrder": 1
+          }
+        }
+      },
+      {
+        "ProductId": 25,
+        "Name": "adidas Consortium Campus 80s Running Shoes",
+        "ShortDescription": "adidas Consortium Campus 80s Primeknit Light Maroon/Running Shoes",
+        "FullDescription": "&lt;p&gt;One of three colorways of the adidas Consortium Campus 80s Primeknit set to drop alongside each other. This pair comes in light maroon and running white. Featuring a maroon-based primeknit upper with white accents. A limited release, look out for these at select adidas Consortium accounts worldwide.&lt;/p&gt;",
+        "SKU": "AD_C80_RS",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 27.56,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": {
+          "ProductAttributeMapping": [
+            {
+              "ProductAttributeMappingId": 9,
+              "ProductAttributeId": 8,
+              "ProductAttributeName": "Size",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 1,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 21,
+                    "Name": 8,
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 1,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 22,
+                    "Name": 9,
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 23,
+                    "Name": 10,
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 3,
+                    "PictureId": 0
+                  },
+                  {
+                    "ProductAttributeValueId": 24,
+                    "Name": 11,
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 4,
+                    "PictureId": 0
+                  }
+                ]
+              }
+            },
+            {
+              "ProductAttributeMappingId": 10,
+              "ProductAttributeId": 1,
+              "ProductAttributeName": "Color",
+              "TextPrompt": "",
+              "IsRequired": "True",
+              "AttributeControlTypeId": 40,
+              "DisplayOrder": 0,
+              "ConditionAttributeXml": "",
+              "ProductAttributeValues": {
+                "ProductAttributeValue": [
+                  {
+                    "ProductAttributeValueId": 25,
+                    "Name": "Red",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "#663030",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "True",
+                    "DisplayOrder": 1,
+                    "PictureId": 53
+                  },
+                  {
+                    "ProductAttributeValueId": 26,
+                    "Name": "Blue",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "#363656",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 2,
+                    "PictureId": 54
+                  },
+                  {
+                    "ProductAttributeValueId": 27,
+                    "Name": "Silver",
+                    "AttributeValueTypeId": 0,
+                    "AssociatedProductId": 0,
+                    "ColorSquaresRgb": "#c5c5d5",
+                    "ImageSquaresPictureId": 0,
+                    "PriceAdjustment": 0,
+                    "PriceAdjustmentUsePercentage": "False",
+                    "WeightAdjustment": 0,
+                    "Cost": 0,
+                    "CustomerEntersQty": "False",
+                    "Quantity": 0,
+                    "IsPreSelected": "False",
+                    "DisplayOrder": 3,
+                    "PictureId": 55
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 32,
+              "PictureId": 53,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 33,
+              "PictureId": 54,
+              "DisplayOrder": 2
+            },
+            {
+              "ProductPictureId": 34,
+              "PictureId": 55,
+              "DisplayOrder": 3
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 23,
+            "CategoryId": 10,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": [
+            {
+              "ProductSpecificationAttributeId": 23,
+              "SpecificationAttributeOptionId": 14,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "False",
+              "DisplayOrder": 1
+            },
+            {
+              "ProductSpecificationAttributeId": 24,
+              "SpecificationAttributeOptionId": 15,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "False",
+              "DisplayOrder": 2
+            },
+            {
+              "ProductSpecificationAttributeId": 25,
+              "SpecificationAttributeOptionId": 16,
+              "CustomValue": "",
+              "AllowFiltering": "True",
+              "ShowOnProductPage": "False",
+              "DisplayOrder": 3
+            }
+          ]
+        }
+      },
+      {
+        "ProductId": 26,
+        "Name": "Nike SB Zoom Stefan Janoski \"Medium Mint\"",
+        "ShortDescription": "Nike SB Zoom Stefan Janoski Dark Grey Medium Mint Teal ...",
+        "FullDescription": "The newly Nike SB Zoom Stefan Janoski gets hit with a \"Medium Mint\" accents that sits atop a Dark Grey suede. Expected to drop in October.",
+        "SKU": "NK_ZSJ_MM",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 30,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 35,
+            "PictureId": 56,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 24,
+            "CategoryId": 10,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": {
+          "ProductSpecificationAttribute": {
+            "ProductSpecificationAttributeId": 26,
+            "SpecificationAttributeOptionId": 14,
+            "CustomValue": "",
+            "AllowFiltering": "True",
+            "ShowOnProductPage": "False",
+            "DisplayOrder": 1
+          }
+        }
+      },
+      {
+        "ProductId": 27,
+        "Name": "Nike Tailwind Loose Short-Sleeve Running Shirt",
+        "ShortDescription": "",
+        "FullDescription": "&lt;p&gt;Boost your adrenaline with the Nike® Women's Tailwind Running Shirt. The lightweight, slouchy fit is great for layering, and moisture-wicking fabrics keep you feeling at your best. This tee has a notched hem for an enhanced range of motion, while flat seams with reinforcement tape lessen discomfort and irritation over longer distances. Put your keys and card in the side zip pocket and take off in your Nike® running t-shirt.&lt;/p&gt;",
+        "SKU": "NK_TLS_RS",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 15,
+        "Weight": 1,
+        "Length": 2,
+        "Width": 3,
+        "Height": 3,
+        "CreatedOnUtc": "7/8/2022 12:40:07 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:07 AM",
+        "ProductAttributes": {
+          "ProductAttributeMapping": {
+            "ProductAttributeMappingId": 11,
+            "ProductAttributeId": 8,
+            "ProductAttributeName": "Size",
+            "TextPrompt": "",
+            "IsRequired": "True",
+            "AttributeControlTypeId": 1,
+            "DisplayOrder": 0,
+            "ConditionAttributeXml": "",
+            "ProductAttributeValues": {
+              "ProductAttributeValue": [
+                {
+                  "ProductAttributeValueId": 28,
+                  "Name": "Small",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 1,
+                  "PictureId": 0
+                },
+                {
+                  "ProductAttributeValueId": 29,
+                  "Name": "1X",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 2,
+                  "PictureId": 0
+                },
+                {
+                  "ProductAttributeValueId": 30,
+                  "Name": "2X",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 3,
+                  "PictureId": 0
+                },
+                {
+                  "ProductAttributeValueId": 31,
+                  "Name": "3X",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 4,
+                  "PictureId": 0
+                },
+                {
+                  "ProductAttributeValueId": 32,
+                  "Name": "4X",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 5,
+                  "PictureId": 0
+                },
+                {
+                  "ProductAttributeValueId": 33,
+                  "Name": "5X",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 6,
+                  "PictureId": 0
+                }
+              ]
+            }
+          }
+        },
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 36,
+            "PictureId": 57,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 25,
+            "CategoryId": 11,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 28,
+        "Name": "Oversized Women T-Shirt",
+        "ShortDescription": "",
+        "FullDescription": "&lt;p&gt;This oversized women t-Shirt needs minimum ironing. It is a great product at a great value!&lt;/p&gt;",
+        "SKU": "WM_OVR_TS",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 24,
+        "Weight": 4,
+        "Length": 3,
+        "Width": 3,
+        "Height": 3,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 37,
+            "PictureId": 58,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 26,
+            "CategoryId": 11,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 29,
+        "Name": "Custom T-Shirt",
+        "ShortDescription": "T-Shirt - Add Your Content",
+        "FullDescription": "&lt;p&gt;Comfort comes in all shapes and forms, yet this tee out does it all. Rising above the rest, our classic cotton crew provides the simple practicality you need to make it through the day. Tag-free, relaxed fit wears well under dress shirts or stands alone in laid-back style. Reinforced collar and lightweight feel give way to long-lasting shape and breathability. One less thing to worry about, rely on this tee to provide comfort and ease with every wear.&lt;/p&gt;",
+        "SKU": "CS_TSHIRT",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 15,
+        "Weight": 4,
+        "Length": 3,
+        "Width": 3,
+        "Height": 3,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": {
+          "ProductAttributeMapping": {
+            "ProductAttributeMappingId": 12,
+            "ProductAttributeId": 3,
+            "ProductAttributeName": "Custom Text",
+            "TextPrompt": "Enter your text:",
+            "IsRequired": "True",
+            "AttributeControlTypeId": 4,
+            "DisplayOrder": 0,
+            "ValidationFileAllowedExtensions": "",
+            "DefaultValue": "",
+            "ConditionAttributeXml": "",
+            "ProductAttributeValues": ""
+          }
+        },
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 38,
+            "PictureId": 59,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 27,
+            "CategoryId": 11,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 30,
+        "Name": "Levi's 511 Jeans",
+        "ShortDescription": "Levi's Faded Black 511 Jeans",
+        "FullDescription": "&lt;p&gt;Between a skinny and straight fit, our 511&amp;trade; slim fit jeans are cut close without being too restricting. Slim throughout the thigh and leg opening for a long and lean look.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Slouch1y at top; sits below the waist&lt;/li&gt;&lt;li&gt;Slim through the leg, close at the thigh and straight to the ankle&lt;/li&gt;&lt;li&gt;Stretch for added comfort&lt;/li&gt;&lt;li&gt;Classic five-pocket styling&lt;/li&gt;&lt;li&gt;99% Cotton, 1% Spandex, 11.2 oz. - Imported&lt;/li&gt;&lt;/ul&gt;",
+        "SKU": "LV_511_JN",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 43.5,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": [
+            {
+              "ProductPictureId": 39,
+              "PictureId": 60,
+              "DisplayOrder": 1
+            },
+            {
+              "ProductPictureId": 40,
+              "PictureId": 61,
+              "DisplayOrder": 2
+            }
+          ]
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 28,
+            "CategoryId": 11,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 31,
+        "Name": "Obey Propaganda Hat",
+        "ShortDescription": "",
+        "FullDescription": "&lt;p&gt;Printed poplin 5 panel camp hat with debossed leather patch and web closure&lt;/p&gt;",
+        "SKU": "OB_HAT_PR",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 30,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": {
+          "ProductAttributeMapping": {
+            "ProductAttributeMappingId": 13,
+            "ProductAttributeId": 8,
+            "ProductAttributeName": "Size",
+            "TextPrompt": "",
+            "IsRequired": "True",
+            "AttributeControlTypeId": 1,
+            "DisplayOrder": 0,
+            "ConditionAttributeXml": "",
+            "ProductAttributeValues": {
+              "ProductAttributeValue": [
+                {
+                  "ProductAttributeValueId": 34,
+                  "Name": "Small",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 1,
+                  "PictureId": 0
+                },
+                {
+                  "ProductAttributeValueId": 35,
+                  "Name": "Medium",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 2,
+                  "PictureId": 0
+                },
+                {
+                  "ProductAttributeValueId": 36,
+                  "Name": "Large",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 3,
+                  "PictureId": 0
+                },
+                {
+                  "ProductAttributeValueId": 37,
+                  "Name": "X-Large",
+                  "AttributeValueTypeId": 0,
+                  "AssociatedProductId": 0,
+                  "ColorSquaresRgb": "",
+                  "ImageSquaresPictureId": 0,
+                  "PriceAdjustment": 0,
+                  "PriceAdjustmentUsePercentage": "False",
+                  "WeightAdjustment": 0,
+                  "Cost": 0,
+                  "CustomerEntersQty": "False",
+                  "Quantity": 0,
+                  "IsPreSelected": "False",
+                  "DisplayOrder": 4,
+                  "PictureId": 0
+                }
+              ]
+            }
+          }
+        },
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 41,
+            "PictureId": 62,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 29,
+            "CategoryId": 12,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 32,
+        "Name": "Reversible Horseferry Check Belt",
+        "ShortDescription": "Reversible belt in Horseferry check with smooth leather trim",
+        "FullDescription": "&lt;p&gt;Reversible belt in Horseferry check with smooth leather trim&lt;/p&gt;&lt;p&gt;Leather lining, polished metal buckle&lt;/p&gt;",
+        "SKU": "RH_CHK_BL",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 0,
+        "Price": 45,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 42,
+            "PictureId": 63,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 30,
+            "CategoryId": 12,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 33,
+        "Name": "Ray Ban Aviator Sunglasses",
+        "ShortDescription": "Aviator sunglasses are one of the first widely popularized styles of modern day sunwear.",
+        "FullDescription": "&lt;p&gt;Since 1937, Ray-Ban can genuinely claim the title as the world's leading sunglasses and optical eyewear brand. Combining the best of fashion and sports performance, the Ray-Ban line of Sunglasses delivers a truly classic style that will have you looking great today and for years to come.&lt;/p&gt;",
+        "SKU": "RB_AVR_SG",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 5,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 25,
+        "Weight": 7,
+        "Length": 7,
+        "Width": 7,
+        "Height": 7,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 43,
+            "PictureId": 64,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 31,
+            "CategoryId": 12,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 34,
+        "Name": "Night Visions",
+        "ShortDescription": "Night Visions is the debut studio album by American rock band Imagine Dragons.",
+        "FullDescription": "&lt;p&gt;Original Release Date: September 4, 2012&lt;/p&gt;&lt;p&gt;Release Date: September 4, 2012&lt;/p&gt;&lt;p&gt;Genre - Alternative rock, indie rock, electronic rock&lt;/p&gt;&lt;p&gt;Label - Interscope/KIDinaKORNER&lt;/p&gt;&lt;p&gt;Copyright: (C) 2011 Interscope Records&lt;/p&gt;",
+        "SKU": "NIGHT_VSN",
+        "IsShipEnabled": "False",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 3,
+        "ManageInventoryMethodId": 0,
+        "StockQuantity": 10000,
+        "Price": 2.8,
+        "Weight": 0,
+        "Length": 0,
+        "Width": 0,
+        "Height": 0,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 44,
+            "PictureId": 65,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 32,
+            "CategoryId": 13,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 35,
+        "Name": "If You Wait (donation)",
+        "ShortDescription": "If You Wait is the debut studio album by English indie pop band London Grammar",
+        "FullDescription": "&lt;p&gt;Original Release Date: September 6, 2013&lt;/p&gt;&lt;p&gt;Genre - Electronica, dream pop downtempo, pop&lt;/p&gt;&lt;p&gt;Label - Metal &amp; Dust/Ministry of Sound&lt;/p&gt;&lt;p&gt;Producer - Tim Bran, Roy Kerr London, Grammar&lt;/p&gt;&lt;p&gt;Length - 43:22&lt;/p&gt;",
+        "SKU": "IF_YOU_WT",
+        "IsShipEnabled": "False",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 3,
+        "ManageInventoryMethodId": 0,
+        "StockQuantity": 10000,
+        "Price": 0,
+        "Weight": 0,
+        "Length": 0,
+        "Width": 0,
+        "Height": 0,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 45,
+            "PictureId": 66,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 33,
+            "CategoryId": 13,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 36,
+        "Name": "Science &amp; Faith",
+        "ShortDescription": "Science &amp; Faith is the second studio album by Irish pop rock band The Script.",
+        "FullDescription": "&lt;p&gt;# Original Release Date: September 10, 2010&lt;br /&gt;# Label: RCA, Epic/Phonogenic(America)&lt;br /&gt;# Copyright: 2010 RCA Records.&lt;/p&gt;",
+        "SKU": "SCI_FAITH",
+        "IsShipEnabled": "False",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 3,
+        "ManageInventoryMethodId": 0,
+        "StockQuantity": 10000,
+        "Price": 0,
+        "Weight": 0,
+        "Length": 0,
+        "Width": 0,
+        "Height": 0,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 46,
+            "PictureId": 67,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 34,
+            "CategoryId": 13,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 37,
+        "Name": "Fahrenheit 451 by Ray Bradbury",
+        "ShortDescription": "Fahrenheit 451 is a dystopian novel by Ray Bradbury published in 1953. It is regarded as one of his best works.",
+        "FullDescription": "&lt;p&gt;The novel presents a future American society where books are outlawed and firemen burn any that are found. The title refers to the temperature that Bradbury understood to be the autoignition point of paper.&lt;/p&gt;",
+        "SKU": "FR_451_RB",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 1,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 27,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 47,
+            "PictureId": 68,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 35,
+            "CategoryId": 14,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 38,
+        "Name": "First Prize Pies",
+        "ShortDescription": "Allison Kave made pies as a hobby, until one day her boyfriend convinced her to enter a Brooklyn pie-making contest. She won. In fact, her pies were such a hit that she turned pro.",
+        "FullDescription": "&lt;p&gt;First Prize Pies, a boutique, made-to-order pie business that originated on New York's Lower East Side, has become synonymous with tempting and unusual confections. For the home baker who is passionate about seasonal ingredients and loves a creative approach to recipes, First Prize Pies serves up 52 weeks of seasonal and eclectic pastries in an interesting pie-a-week format. Clear instructions, technical tips and creative encouragement guide novice bakers as well as pie mavens. With its nostalgia-evoking photos of homemade pies fresh out of the oven, First Prize Pies will be as giftable as it is practical.&lt;/p&gt;",
+        "SKU": "FIRST_PRP",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 1,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 51,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 48,
+            "PictureId": 69,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 36,
+            "CategoryId": 14,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 39,
+        "Name": "Pride and Prejudice",
+        "ShortDescription": "Pride and Prejudice is a novel of manners by Jane Austen, first published in 1813.",
+        "FullDescription": "&lt;p&gt;Set in England in the early 19th century, Pride and Prejudice tells the story of Mr and Mrs Bennet's five unmarried daughters after the rich and eligible Mr Bingley and his status-conscious friend, Mr Darcy, have moved into their neighbourhood. While Bingley takes an immediate liking to the eldest Bennet daughter, Jane, Darcy has difficulty adapting to local society and repeatedly clashes with the second-eldest Bennet daughter, Elizabeth.&lt;/p&gt;",
+        "SKU": "PRIDE_PRJ",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 1,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 24,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 49,
+            "PictureId": 70,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 37,
+            "CategoryId": 14,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 40,
+        "Name": "Elegant Gemstone Necklace (rental)",
+        "ShortDescription": "Classic and elegant gemstone necklace now available in our store",
+        "FullDescription": "&lt;p&gt;For those who like jewelry, creating their ownelegant jewelry from gemstone beads provides an economical way to incorporate genuine gemstones into your jewelry wardrobe. Manufacturers create beads from all kinds of precious gemstones and semi-precious gemstones, which are available in bead shops, craft stores, and online marketplaces.&lt;/p&gt;",
+        "SKU": "EG_GEM_NL",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 4,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 30,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 50,
+            "PictureId": 71,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 38,
+            "CategoryId": 15,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 41,
+        "Name": "Flower Girl Bracelet",
+        "ShortDescription": "Personalised Flower Braceled",
+        "FullDescription": "&lt;p&gt;This is a great gift for your flower girl to wear on your wedding day. A delicate bracelet that is made with silver plated soldered cable chain, gives this bracelet a dainty look for young wrist. A Swarovski heart, shown in Rose, hangs off a silver plated flower. Hanging alongside the heart is a silver plated heart charm with Flower Girl engraved on both sides. This is a great style for the younger flower girl.&lt;/p&gt;",
+        "SKU": "FL_GIRL_B",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 4,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 360,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 51,
+            "PictureId": 72,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 39,
+            "CategoryId": 15,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 42,
+        "Name": "Vintage Style Engagement Ring",
+        "ShortDescription": "1.24 Carat (ctw) in 14K White Gold (Certified)",
+        "FullDescription": "&lt;p&gt;Dazzle her with this gleaming 14 karat white gold vintage proposal. A ravishing collection of 11 decadent diamonds come together to invigorate a superbly ornate gold shank. Total diamond weight on this antique style engagement ring equals 1 1/4 carat (ctw). Item includes diamond certificate.&lt;/p&gt;",
+        "SKU": "VS_ENG_RN",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 4,
+        "ManageInventoryMethodId": 1,
+        "StockQuantity": 10000,
+        "Price": 2100,
+        "Weight": 2,
+        "Length": 2,
+        "Width": 2,
+        "Height": 2,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 52,
+            "PictureId": 73,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 40,
+            "CategoryId": 15,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 1
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 43,
+        "Name": "$25 Virtual Gift Card",
+        "ShortDescription": "$25 Gift Card. Gift Cards must be redeemed through our site Web site toward the purchase of eligible products.",
+        "FullDescription": "&lt;p&gt;Gift Cards must be redeemed through our site Web site toward the purchase of eligible products. Purchases are deducted from the GiftCard balance. Any unused balance will be placed in the recipient's GiftCard account when redeemed. If an order exceeds the amount of the GiftCard, the balance must be paid with a credit card or other available payment method.&lt;/p&gt;",
+        "SKU": "VG_CR_025",
+        "IsShipEnabled": "False",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 0,
+        "ManageInventoryMethodId": 0,
+        "StockQuantity": 10000,
+        "Price": 25,
+        "Weight": 0,
+        "Length": 0,
+        "Width": 0,
+        "Height": 0,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 53,
+            "PictureId": 74,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 41,
+            "CategoryId": 16,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 2
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 44,
+        "Name": "$50 Physical Gift Card",
+        "ShortDescription": "$50 Gift Card. Gift Cards must be redeemed through our site Web site toward the purchase of eligible products.",
+        "FullDescription": "&lt;p&gt;Gift Cards must be redeemed through our site Web site toward the purchase of eligible products. Purchases are deducted from the GiftCard balance. Any unused balance will be placed in the recipient's GiftCard account when redeemed. If an order exceeds the amount of the GiftCard, the balance must be paid with a credit card or other available payment method.&lt;/p&gt;",
+        "SKU": "PG_CR_050",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 0,
+        "ManageInventoryMethodId": 0,
+        "StockQuantity": 10000,
+        "Price": 50,
+        "Weight": 1,
+        "Length": 1,
+        "Width": 1,
+        "Height": 1,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 54,
+            "PictureId": 75,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 42,
+            "CategoryId": 16,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 3
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      },
+      {
+        "ProductId": 45,
+        "Name": "$100 Physical Gift Card",
+        "ShortDescription": "$100 Gift Card. Gift Cards must be redeemed through our site Web site toward the purchase of eligible products.",
+        "FullDescription": "&lt;p&gt;Gift Cards must be redeemed through our site Web site toward the purchase of eligible products. Purchases are deducted from the GiftCard balance. Any unused balance will be placed in the recipient's GiftCard account when redeemed. If an order exceeds the amount of the GiftCard, the balance must be paid with a credit card or other available payment method.&lt;/p&gt;",
+        "SKU": "PG_CR_100",
+        "IsShipEnabled": "True",
+        "IsTaxExempt": "False",
+        "TaxCategoryId": 0,
+        "ManageInventoryMethodId": 0,
+        "StockQuantity": 10000,
+        "Price": 100,
+        "Weight": 1,
+        "Length": 1,
+        "Width": 1,
+        "Height": 1,
+        "CreatedOnUtc": "7/8/2022 12:40:08 AM",
+        "UpdatedOnUtc": "7/8/2022 12:40:08 AM",
+        "ProductAttributes": "",
+        "ProductPictures": {
+          "ProductPicture": {
+            "ProductPictureId": 55,
+            "PictureId": 76,
+            "DisplayOrder": 1
+          }
+        },
+        "ProductCategories": {
+          "ProductCategory": {
+            "ProductCategoryId": 43,
+            "CategoryId": 16,
+            "IsFeaturedProduct": "False",
+            "DisplayOrder": 4
+          }
+        },
+        "ProductSpecificationAttributes": ""
+      }
+    ]
 }
