@@ -1,323 +1,408 @@
 {
     "Products": [
-      {
-        "ProductId": 1,
-        "Name": "Build your own computer",
-        "ShortDescription": "Build it",
-        "SKU": "COMP_CUST",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 1200,
-        "ProductPictures": {
-          "ProductPicture": [
-            {
-              "ProductPictureId": 1,
-              "PictureId": 20,
-              "DisplayOrder": 1
-            },
-            {
-              "ProductPictureId": 2,
-              "PictureId": 21,
-              "DisplayOrder": 2
+        {
+            "ProductId": 1,
+            "Name": "Build your own computer",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1200,
+            "Categories": "Desktops",
+            "Pictures": ["0000020_build-your-own-computer.jpeg", "0000021_build-your-own-computer.jpeg"]
             }
-          ]
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 1,
-            "CategoryId": 2,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 2,
-        "Name": "Digital Storm VANQUISH 3 Custom Performance PC",
-        "ShortDescription": "Digital Storm Vanquish 3 Desktop PC",
-        "SKU": "DS_VA3_PC",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 1259,
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 3,
-            "PictureId": 22,
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 2,
+            "Name": "Digital Storm VANQUISH 3 Custom Performance PC",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1259,
+            "Categories": "Desktops",
+            "Pictures": "0000022_digital-storm-vanquish-3-custom-performance-pc.jpeg"
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 2,
-            "CategoryId": 2,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 3,
-        "Name": "Lenovo IdeaCentre 600 All-in-One PC",
-        "ShortDescription": "",
-        "SKU": "LE_IC_600",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 500,
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 4,
-            "PictureId": 23,
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 3,
+            "Name": "Lenovo IdeaCentre 600 All-in-One PC",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 500,
+            "Categories": "Desktops",
+            "Pictures": "0000023_lenovo-ideacentre-600-all-in-one-pc.jpeg"
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 3,
-            "CategoryId": 2,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 4,
-        "Name": "Apple MacBook Pro 13-inch",
-        "ShortDescription": "A groundbreaking Retina display. A new force-sensing trackpad. All-flash architecture. Powerful dual-core and quad-core Intel processors. Together, these features take the notebook to a new level of performance. And they will do the same for you in everything you create.",
-        "SKU": "AP_MBP_13",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 1800,
-        "ProductPictures": {
-          "ProductPicture": [
-            {
-              "ProductPictureId": 5,
-              "PictureId": 24,
-              "DisplayOrder": 1
-            },
-            {
-              "ProductPictureId": 6,
-              "PictureId": 25,
-              "DisplayOrder": 2
-            }
-          ]
+        {
+            "ProductId": 4,
+            "Name": "Apple MacBook Pro 13-inch",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1800,
+            "Categories": "Notebooks",
+            "Pictures": ["0000024_apple-macbook-pro-13-inch.jpeg", "0000025_apple-macbook-pro-13-inch.jpeg"]
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 4,
-            "CategoryId": 3,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 5,
-        "Name": "Asus N551JK-XO076H Laptop",
-        "ShortDescription": "Laptop Asus N551JK Intel Core i7-4710HQ 2.5 GHz, RAM 16GB, HDD 1TB, Video NVidia GTX 850M 4GB, BluRay, 15.6, Full HD, Win 8.1",
-        "SKU": "AS_551_LP",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 1500,
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 7,
-            "PictureId": 26,
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 5,
+            "Name": "Asus N551JK-XO076H Laptop",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1500,
+            "Categories": "Notebooks",
+            "Pictures": "0000026_asus-n551jk-xo076h-laptop.jpeg"
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 5,
-            "CategoryId": 3,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 6,
-        "Name": "Samsung Series 9 NP900X4C Premium Ultrabook",
-        "ShortDescription": "Samsung Series 9 NP900X4C-A06US 15-Inch Ultrabook (1.70 GHz Intel Core i5-3317U Processor, 8GB DDR3, 128GB SSD, Windows 8) Ash Black",
-        "SKU": "SM_900_PU",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 1590,
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 8,
-            "PictureId": 27,
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 6,
+            "Name": "Samsung Series 9 NP900X4C Premium Ultrabook",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1590,
+            "Categories": "Notebooks",
+            "Pictures": "0000027_samsung-series-9-np900x4c-premium-ultrabook.jpeg"
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 6,
-            "CategoryId": 3,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 7,
-        "Name": "HP Spectre XT Pro UltraBook",
-        "ShortDescription": "HP Spectre XT Pro UltraBook / Intel Core i5-2467M / 13.3 / 4GB / 128GB / Windows 7 Professional / Laptop",
-        "SKU": "HP_SPX_UB",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 1350,
-        "ProductPictures": {
-          "ProductPicture": [
-            {
-              "ProductPictureId": 9,
-              "PictureId": 28,
-              "DisplayOrder": 1
-            },
-            {
-              "ProductPictureId": 10,
-              "PictureId": 29,
-              "DisplayOrder": 2
-            }
-          ]
+        {
+            "ProductId": 7,
+            "Name": "HP Spectre XT Pro UltraBook",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1350,
+            "Categories": "Notebooks",
+            "Pictures": ["0000028_hp-spectre-xt-pro-ultrabook.jpeg", "0000029_hp-spectre-xt-pro-ultrabook.jpeg"]
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 7,
-            "CategoryId": 3,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 8,
-        "Name": "HP Envy 6-1180ca 15.6-Inch Sleekbook",
-        "ShortDescription": "HP ENVY 6-1202ea Ultrabook Beats Audio, 3rd generation Intel® CoreTM i7-3517U processor, 8GB RAM, 500GB HDD, Microsoft Windows 8, AMD Radeon HD 8750M (2 GB DDR3 dedicated)",
-        "SKU": "HP_ESB_15",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 1460,
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 11,
-            "PictureId": 30,
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 8,
+            "Name": "HP Envy 6-1180ca 15.6-Inch Sleekbook",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1460,
+            "Categories": "Notebooks",
+            "Pictures": "0000030_hp-envy-6-1180ca-156-inch-sleekbook.jpeg"
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 8,
-            "CategoryId": 3,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 9,
-        "Name": "Lenovo Thinkpad X1 Carbon Laptop",
-        "ShortDescription": "Lenovo Thinkpad X1 Carbon Touch Intel Core i7 14 Ultrabook",
-        "SKU": "LE_TX1_CL",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 1360,
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 12,
-            "PictureId": 31,
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 9,
+            "Name": "Lenovo Thinkpad X1 Carbon Laptop",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1360,
+            "Categories": "Notebooks",
+            "Pictures": "0000031_lenovo-thinkpad-x1-carbon-laptop.jpeg"
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 9,
-            "CategoryId": 3,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 10,
-        "Name": "Adobe Photoshop CS4",
-        "ShortDescription": "Easily find and view all your photos",
-        "SKU": "AD_CS4_PH",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 75,
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 13,
-            "PictureId": 32,
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 10,
+            "Name": "Adobe Photoshop CS4",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 75,
+            "Categories": "Software",
+            "Pictures": "0000032_adobe-photoshop-cs4.jpeg"
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 10,
-            "CategoryId": 4,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
-        }
-      },
-      {
-        "ProductId": 11,
-        "Name": "Windows 8 Pro",
-        "ShortDescription": "Windows 8 is a Microsoft operating system that was released in 2012 as part of the company's Windows NT OS family.",
-        "SKU": "MS_WIN_8P",
-        "IsShipEnabled": "True",
-        "IsTaxExempt": "False",
-        "TaxCategoryId": 2,
-        "ManageInventoryMethodId": 1,
-        "StockQuantity": 10000,
-        "Price": 65,
-        "ProductPictures": {
-          "ProductPicture": {
-            "ProductPictureId": 14,
-            "PictureId": 33,
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 11,
+            "Name": "Windows 8 Pro",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 65,
+            "Categories": "Software",
+            "Pictures": "0000033_windows-8-pro.jpeg"
         },
-        "ProductCategories": {
-          "ProductCategory": {
-            "ProductCategoryId": 11,
-            "CategoryId": 4,
-            "IsFeaturedProduct": "False",
-            "DisplayOrder": 1
-          }
+        {
+            "ProductId": 12,
+            "Name": "Sound Forge Pro 11 (recurring)",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 54.99,
+            "Categories": "Software",
+            "Pictures": "0000034_sound-forge-pro-11-recurring.jpeg"
+        },
+        {
+            "ProductId": 13,
+            "Name": "Nikon D5500 DSLR",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 670,
+            "Categories": "Camera & photo",
+            "Pictures": ["0000035_nikon-d5500-dslr.jpeg", "0000036_nikon-d5500-dslr.jpeg"]
+        },
+        {
+            "ProductId": 14,
+            "Name": "Nikon D5500 DSLR - Black",
+            "MainProductId": 12,
+            "IsShipEnabled": true,
+            "Price": 670,
+            "Pictures": "0000037_nikon-d5500-dslr-black.jpeg"
+        },
+        {
+            "ProductId": 15,
+            "Name": "Nikon D5500 DSLR - Red",
+            "MainProductId": 12,
+            "IsShipEnabled": true,
+            "Price": 630,
+            "Pictures": "0000038_nikon-d5500-dslr-red.jpeg"
+        },
+        {
+            "ProductId": 16,
+            "Name": "Leica T Mirrorless Digital Camera",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 530,
+            "Categories": "Camera & photo",
+            "Pictures": "0000039_leica-t-mirrorless-digital-camera.jpeg"
+        },
+        {
+            "ProductId": 17,
+            "Name": "Apple iCam",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 1300,
+            "Categories": "Camera & photo",
+            "Pictures": "0000040_apple-icam.jpeg"
+        },
+        {
+            "ProductId": 18,
+            "Name": "HTC One M8 Android L 5.0 Lollipop",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 245,
+            "Categories": "Cell phones",
+            "Pictures": "0000041_htc-one-m8-android-l-50-lollipop.jpeg"
+        },
+        {
+            "ProductId": 19,
+            "Name": "HTC One Mini Blue",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 100,
+            "Categories": "Cell phones",
+            "Pictures": ["0000042_htc-one-mini-blue.jpeg", "0000043_htc-one-mini-blue.jpeg"]
+        },
+        {
+            "ProductId": 20,
+            "Name": "Nokia Lumia 1020",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 349,
+            "Categories": "Cell phones",
+            "Pictures": "0000044_nokia-lumia-1020.jpeg"
+        },
+        {
+            "ProductId": 21,
+            "Name": "Beats Pill 2.0 Wireless Speaker",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 79.99,
+            "Categories": "Others",
+            "Pictures": ["0000045_beats-pill-20-wireless-speaker.jpeg", "0000046_beats-pill-20-wireless-speaker.jpeg"]
+        },
+        {
+            "ProductId": 22,
+            "Name": "Universal 7-8 Inch Tablet Cover",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 39,
+            "Categories": "Others",
+            "Pictures": "0000047_universal-7-8-inch-tablet-cover.jpeg"
+        },
+        {
+            "ProductId": 23,
+            "Name": "Portable Sound Speakers",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 37,
+            "Categories": "Others",
+            "Pictures": "0000048_portable-sound-speakers.jpeg"
+        },
+        {
+            "ProductId": 24,
+            "Name": "Nike Floral Roshe Customized Running Shoes",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 40,
+            "Categories": "Shoes",
+            "Pictures": ["0000049_nike-floral-roshe-customized-running-shoes.jpeg", "0000050_nike-floral-roshe-customized-running-shoes.jpeg"]
+        },
+        {
+            "ProductId": 25,
+            "Name": "adidas Consortium Campus 80s Running Shoes",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 27.56,
+            "Categories": "Shoes",
+            "Pictures": ["0000053_adidas-consortium-campus-80s-running-shoes.jpeg", "0000054_adidas-consortium-campus-80s-running-shoes.jpeg", "0000055_adidas-consortium-campus-80s-running-shoes.jpeg"]
+        },
+        {
+            "ProductId": 26,
+            "Name": "Nike SB Zoom Stefan Janoski \"Medium Mint\"",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 30,
+            "Categories": "Shoes",
+            "Pictures": "0000056_nike-sb-zoom-stefan-janoski-medium-mint.jpeg"
+        },
+        {
+            "ProductId": 27,
+            "Name": "Nike Tailwind Loose Short-Sleeve Running Shirt",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 15,
+            "Categories": "Clothing",
+            "Pictures": "0000057_nike-tailwind-loose-short-sleeve-running-shirt.jpeg"
+        },
+        {
+            "ProductId": 28,
+            "Name": "Oversized Women T-Shirt",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 24,
+            "Categories": "Clothing",
+            "Pictures": "0000058_oversized-women-t-shirt.jpeg"
+        },
+        {
+            "ProductId": 29,
+            "Name": "Custom T-Shirt",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 15,
+            "Categories": "Clothing",
+            "Pictures": "0000059_custom-t-shirt.jpeg"
+        },
+        {
+            "ProductId": 30,
+            "Name": "Levi's 511 Jeans",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 43.5,
+            "Categories": "Clothing",
+            "Pictures": ["0000060_levis-511-jeans.jpeg", "0000061_levis-511-jeans.jpeg"]
+        },
+        {
+            "ProductId": 31,
+            "Name": "Obey Propaganda Hat",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 30,
+            "Categories": "Accessories",
+            "Pictures": "0000062_obey-propaganda-hat.jpeg"
+        },
+        {
+            "ProductId": 32,
+            "Name": "Reversible Horseferry Check Belt",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 45,
+            "Categories": "Accessories",
+            "Pictures": "0000063_reversible-horseferry-check-belt.jpeg"
+        },
+        {
+            "ProductId": 33,
+            "Name": "Ray Ban Aviator Sunglasses",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 25,
+            "Categories": "Accessories",
+            "Pictures": "0000064_ray-ban-aviator-sunglasses.jpeg"
+        },
+        {
+            "ProductId": 34,
+            "Name": "Night Visions",
+            "MainProductId": "null",
+            "IsShipEnabled": false,
+            "Price": 2.8,
+            "Categories": "Digital downloads",
+            "Pictures": "0000065_night-visions.jpeg"
+        },
+        {
+            "ProductId": 35,
+            "Name": "If You Wait (donation)",
+            "MainProductId": "null",
+            "IsShipEnabled": false,
+            "Price": 0,
+            "Categories": "Digital downloads",
+            "Pictures": "0000066_if-you-wait-donation.jpeg"
+        },
+        {
+            "ProductId": 36,
+            "Name": "Science & Faith",
+            "MainProductId": "null",
+            "IsShipEnabled": false,
+            "Price": 0,
+            "Categories": "Digital downloads",
+            "Pictures": "0000067_science-faith.jpeg"
+        },
+        {
+            "ProductId": 37,
+            "Name": "Fahrenheit 451 by Ray Bradbury",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 27,
+            "Categories": "Books",
+            "Pictures": "0000068_fahrenheit-451-by-ray-bradbury.jpeg"
+        },
+        {
+            "ProductId": 38,
+            "Name": "First Prize Pies",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 51,
+            "Categories": "Books",
+            "Pictures": "0000069_first-prize-pies.jpeg"
+        },
+        {
+            "ProductId": 39,
+            "Name": "Pride and Prejudice",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 24,
+            "Categories": "Books",
+            "Pictures": "0000070_pride-and-prejudice.jpeg"
+        },
+        {
+            "ProductId": 40,
+            "Name": "Elegant Gemstone Necklace (rental)",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 30,
+            "Categories": "Jewelry",
+            "Pictures": "0000071_elegant-gemstone-necklace-rental.jpeg"
+        },
+        {
+            "ProductId": 41,
+            "Name": "Flower Girl Bracelet",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 360,
+            "Categories": "Jewelry",
+            "Pictures": "0000072_flower-girl-bracelet.jpeg"
+        },
+        {
+            "ProductId": 42,
+            "Name": "Vintage Style Engagement Ring",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 2100,
+            "Categories": "Jewelry",
+            "Pictures": "0000073_vintage-style-engagement-ring.jpeg"
+        },
+        {
+            "ProductId": 43,
+            "Name": "$25 Virtual Gift Card",
+            "MainProductId": "null",
+            "IsShipEnabled": false,
+            "Price": 25,
+            "Categories": "Gift Cards",
+            "Pictures": "0000074_25-virtual-gift-card.jpeg"
+        },
+        {
+            "ProductId": 44,
+            "Name": "$50 Physical Gift Card",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 50,
+            "Categories": "Gift Cards",
+            "Pictures": "0000075_50-physical-gift-card.jpeg"
+        },
+        {
+            "ProductId": 45,
+            "Name": "$100 Physical Gift Card",
+            "MainProductId": "null",
+            "IsShipEnabled": true,
+            "Price": 100,
+            "Categories": "Gift Cards",
+            "Pictures": "0000076_100-physical-gift-card.jpeg"
         }
-      }
     ]
-
 }
