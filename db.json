@@ -7,7 +7,10 @@
             "IsShipEnabled": true,
             "Price": 1200,
             "Categories": "Desktops",
-            "Pictures": ["0000020_build-your-own-computer.jpeg", "0000021_build-your-own-computer.jpeg"]
+            "Pictures": [
+                "0000020_build-your-own-computer.jpeg",
+                "0000021_build-your-own-computer.jpeg"
+            ]
         },
         {
             "ProductId": 2,
@@ -34,7 +37,10 @@
             "IsShipEnabled": true,
             "Price": 1800,
             "Categories": "Notebooks",
-            "Pictures": ["0000024_apple-macbook-pro-13-inch.jpeg", "0000025_apple-macbook-pro-13-inch.jpeg"]
+            "Pictures": [
+                "0000024_apple-macbook-pro-13-inch.jpeg",
+                "0000025_apple-macbook-pro-13-inch.jpeg"
+            ]
         },
         {
             "ProductId": 5,
@@ -61,7 +67,10 @@
             "IsShipEnabled": true,
             "Price": 1350,
             "Categories": "Notebooks",
-            "Pictures": ["0000028_hp-spectre-xt-pro-ultrabook.jpeg", "0000029_hp-spectre-xt-pro-ultrabook.jpeg"]
+            "Pictures": [
+                "0000028_hp-spectre-xt-pro-ultrabook.jpeg",
+                "0000029_hp-spectre-xt-pro-ultrabook.jpeg"
+            ]
         },
         {
             "ProductId": 8,
@@ -115,7 +124,10 @@
             "IsShipEnabled": true,
             "Price": 670,
             "Categories": "Camera & photo",
-            "Pictures": ["0000035_nikon-d5500-dslr.jpeg", "0000036_nikon-d5500-dslr.jpeg"]
+            "Pictures": [
+                "0000035_nikon-d5500-dslr.jpeg",
+                "0000036_nikon-d5500-dslr.jpeg"
+            ]
         },
         {
             "ProductId": 14,
@@ -167,7 +179,10 @@
             "IsShipEnabled": true,
             "Price": 100,
             "Categories": "Cell phones",
-            "Pictures": ["0000042_htc-one-mini-blue.jpeg", "0000043_htc-one-mini-blue.jpeg"]
+            "Pictures": [
+                "0000042_htc-one-mini-blue.jpeg",
+                "0000043_htc-one-mini-blue.jpeg"
+            ]
         },
         {
             "ProductId": 20,
@@ -185,7 +200,10 @@
             "IsShipEnabled": true,
             "Price": 79.99,
             "Categories": "Others",
-            "Pictures": ["0000045_beats-pill-20-wireless-speaker.jpeg", "0000046_beats-pill-20-wireless-speaker.jpeg"]
+            "Pictures": [
+                "0000045_beats-pill-20-wireless-speaker.jpeg",
+                "0000046_beats-pill-20-wireless-speaker.jpeg"
+            ]
         },
         {
             "ProductId": 22,
@@ -212,7 +230,10 @@
             "IsShipEnabled": true,
             "Price": 40,
             "Categories": "Shoes",
-            "Pictures": ["0000049_nike-floral-roshe-customized-running-shoes.jpeg", "0000050_nike-floral-roshe-customized-running-shoes.jpeg"]
+            "Pictures": [
+                "0000049_nike-floral-roshe-customized-running-shoes.jpeg",
+                "0000050_nike-floral-roshe-customized-running-shoes.jpeg"
+            ]
         },
         {
             "ProductId": 25,
@@ -221,7 +242,11 @@
             "IsShipEnabled": true,
             "Price": 27.56,
             "Categories": "Shoes",
-            "Pictures": ["0000053_adidas-consortium-campus-80s-running-shoes.jpeg", "0000054_adidas-consortium-campus-80s-running-shoes.jpeg", "0000055_adidas-consortium-campus-80s-running-shoes.jpeg"]
+            "Pictures": [
+                "0000053_adidas-consortium-campus-80s-running-shoes.jpeg",
+                "0000054_adidas-consortium-campus-80s-running-shoes.jpeg",
+                "0000055_adidas-consortium-campus-80s-running-shoes.jpeg"
+            ]
         },
         {
             "ProductId": 26,
@@ -266,7 +291,10 @@
             "IsShipEnabled": true,
             "Price": 43.5,
             "Categories": "Clothing",
-            "Pictures": ["0000060_levis-511-jeans.jpeg", "0000061_levis-511-jeans.jpeg"]
+            "Pictures": [
+                "0000060_levis-511-jeans.jpeg",
+                "0000061_levis-511-jeans.jpeg"
+            ]
         },
         {
             "ProductId": 31,
