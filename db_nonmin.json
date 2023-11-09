@@ -7,10 +7,7 @@
             "IsShipEnabled": true,
             "Price": 1200,
             "Categories": "Desktops",
-            "Pictures": [
-                "0000020_build-your-own-computer.jpeg",
-                "0000021_build-your-own-computer.jpeg"
-            ]
+            "Pictures": ["0000020_build-your-own-computer.jpeg", "0000021_build-your-own-computer.jpeg"]
         },
         {
             "ProductId": 2,
@@ -22,25 +19,13 @@
             "Pictures": "0000022_digital-storm-vanquish-3-custom-performance-pc.jpeg"
         },
         {
-            "ProductId": 3,
-            "Name": "Lenovo IdeaCentre 600 All-in-One PC",
-            "MainProductId": "null",
-            "IsShipEnabled": true,
-            "Price": 500,
-            "Categories": "Desktops",
-            "Pictures": "0000023_lenovo-ideacentre-600-all-in-one-pc.jpeg"
-        },
-        {
             "ProductId": 4,
             "Name": "Apple MacBook Pro 13-inch",
             "MainProductId": "null",
             "IsShipEnabled": true,
             "Price": 1800,
             "Categories": "Notebooks",
-            "Pictures": [
-                "0000024_apple-macbook-pro-13-inch.jpeg",
-                "0000025_apple-macbook-pro-13-inch.jpeg"
-            ]
+            "Pictures": ["0000024_apple-macbook-pro-13-inch.jpeg", "0000025_apple-macbook-pro-13-inch.jpeg"]
         },
         {
             "ProductId": 5,
@@ -52,25 +37,13 @@
             "Pictures": "0000026_asus-n551jk-xo076h-laptop.jpeg"
         },
         {
-            "ProductId": 6,
-            "Name": "Samsung Series 9 NP900X4C Premium Ultrabook",
-            "MainProductId": "null",
-            "IsShipEnabled": true,
-            "Price": 1590,
-            "Categories": "Notebooks",
-            "Pictures": "0000027_samsung-series-9-np900x4c-premium-ultrabook.jpeg"
-        },
-        {
             "ProductId": 7,
             "Name": "HP Spectre XT Pro UltraBook",
             "MainProductId": "null",
             "IsShipEnabled": true,
             "Price": 1350,
             "Categories": "Notebooks",
-            "Pictures": [
-                "0000028_hp-spectre-xt-pro-ultrabook.jpeg",
-                "0000029_hp-spectre-xt-pro-ultrabook.jpeg"
-            ]
+            "Pictures": ["0000028_hp-spectre-xt-pro-ultrabook.jpeg", "0000029_hp-spectre-xt-pro-ultrabook.jpeg"]
         },
         {
             "ProductId": 8,
@@ -124,10 +97,7 @@
             "IsShipEnabled": true,
             "Price": 670,
             "Categories": "Camera & photo",
-            "Pictures": [
-                "0000035_nikon-d5500-dslr.jpeg",
-                "0000036_nikon-d5500-dslr.jpeg"
-            ]
+            "Pictures": ["0000035_nikon-d5500-dslr.jpeg", "0000036_nikon-d5500-dslr.jpeg"]
         },
         {
             "ProductId": 14,
@@ -136,15 +106,7 @@
             "IsShipEnabled": true,
             "Price": 670,
             "Pictures": "0000037_nikon-d5500-dslr-black.jpeg"
-        },
-        {
-            "ProductId": 15,
-            "Name": "Nikon D5500 DSLR - Red",
-            "MainProductId": 12,
-            "IsShipEnabled": true,
-            "Price": 630,
-            "Pictures": "0000038_nikon-d5500-dslr-red.jpeg"
-        },
+        }
         {
             "ProductId": 16,
             "Name": "Leica T Mirrorless Digital Camera",
@@ -179,10 +141,7 @@
             "IsShipEnabled": true,
             "Price": 100,
             "Categories": "Cell phones",
-            "Pictures": [
-                "0000042_htc-one-mini-blue.jpeg",
-                "0000043_htc-one-mini-blue.jpeg"
-            ]
+            "Pictures": ["0000042_htc-one-mini-blue.jpeg", "0000043_htc-one-mini-blue.jpeg"]
         },
         {
             "ProductId": 20,
@@ -200,10 +159,7 @@
             "IsShipEnabled": true,
             "Price": 79.99,
             "Categories": "Others",
-            "Pictures": [
-                "0000045_beats-pill-20-wireless-speaker.jpeg",
-                "0000046_beats-pill-20-wireless-speaker.jpeg"
-            ]
+            "Pictures": ["0000045_beats-pill-20-wireless-speaker.jpeg", "0000046_beats-pill-20-wireless-speaker.jpeg"]
         },
         {
             "ProductId": 22,
@@ -222,19 +178,7 @@
             "Price": 37,
             "Categories": "Others",
             "Pictures": "0000048_portable-sound-speakers.jpeg"
-        },
-        {
-            "ProductId": 24,
-            "Name": "Nike Floral Roshe Customized Running Shoes",
-            "MainProductId": "null",
-            "IsShipEnabled": true,
-            "Price": 40,
-            "Categories": "Shoes",
-            "Pictures": [
-                "0000049_nike-floral-roshe-customized-running-shoes.jpeg",
-                "0000050_nike-floral-roshe-customized-running-shoes.jpeg"
-            ]
-        },
+        }
         {
             "ProductId": 25,
             "Name": "adidas Consortium Campus 80s Running Shoes",
@@ -242,11 +186,7 @@
             "IsShipEnabled": true,
             "Price": 27.56,
             "Categories": "Shoes",
-            "Pictures": [
-                "0000053_adidas-consortium-campus-80s-running-shoes.jpeg",
-                "0000054_adidas-consortium-campus-80s-running-shoes.jpeg",
-                "0000055_adidas-consortium-campus-80s-running-shoes.jpeg"
-            ]
+            "Pictures": ["0000053_adidas-consortium-campus-80s-running-shoes.jpeg", "0000054_adidas-consortium-campus-80s-running-shoes.jpeg", "0000055_adidas-consortium-campus-80s-running-shoes.jpeg"]
         },
         {
             "ProductId": 26,
@@ -274,16 +214,7 @@
             "Price": 24,
             "Categories": "Clothing",
             "Pictures": "0000058_oversized-women-t-shirt.jpeg"
-        },
-        {
-            "ProductId": 29,
-            "Name": "Custom T-Shirt",
-            "MainProductId": "null",
-            "IsShipEnabled": true,
-            "Price": 15,
-            "Categories": "Clothing",
-            "Pictures": "0000059_custom-t-shirt.jpeg"
-        },
+        }
         {
             "ProductId": 30,
             "Name": "Levi's 511 Jeans",
@@ -291,10 +222,7 @@
             "IsShipEnabled": true,
             "Price": 43.5,
             "Categories": "Clothing",
-            "Pictures": [
-                "0000060_levis-511-jeans.jpeg",
-                "0000061_levis-511-jeans.jpeg"
-            ]
+            "Pictures": ["0000060_levis-511-jeans.jpeg", "0000061_levis-511-jeans.jpeg"]
         },
         {
             "ProductId": 31,
@@ -313,24 +241,6 @@
             "Price": 45,
             "Categories": "Accessories",
             "Pictures": "0000063_reversible-horseferry-check-belt.jpeg"
-        },
-        {
-            "ProductId": 33,
-            "Name": "Ray Ban Aviator Sunglasses",
-            "MainProductId": "null",
-            "IsShipEnabled": true,
-            "Price": 25,
-            "Categories": "Accessories",
-            "Pictures": "0000064_ray-ban-aviator-sunglasses.jpeg"
-        },
-        {
-            "ProductId": 34,
-            "Name": "Night Visions",
-            "MainProductId": "null",
-            "IsShipEnabled": false,
-            "Price": 2.8,
-            "Categories": "Digital downloads",
-            "Pictures": "0000065_night-visions.jpeg"
         },
         {
             "ProductId": 35,
@@ -385,25 +295,7 @@
             "Price": 30,
             "Categories": "Jewelry",
             "Pictures": "0000071_elegant-gemstone-necklace-rental.jpeg"
-        },
-        {
-            "ProductId": 41,
-            "Name": "Flower Girl Bracelet",
-            "MainProductId": "null",
-            "IsShipEnabled": true,
-            "Price": 360,
-            "Categories": "Jewelry",
-            "Pictures": "0000072_flower-girl-bracelet.jpeg"
-        },
-        {
-            "ProductId": 42,
-            "Name": "Vintage Style Engagement Ring",
-            "MainProductId": "null",
-            "IsShipEnabled": true,
-            "Price": 2100,
-            "Categories": "Jewelry",
-            "Pictures": "0000073_vintage-style-engagement-ring.jpeg"
-        },
+        }
         {
             "ProductId": 43,
             "Name": "$25 Virtual Gift Card",
@@ -421,15 +313,6 @@
             "Price": 50,
             "Categories": "Gift Cards",
             "Pictures": "0000075_50-physical-gift-card.jpeg"
-        },
-        {
-            "ProductId": 45,
-            "Name": "$100 Physical Gift Card",
-            "MainProductId": "null",
-            "IsShipEnabled": true,
-            "Price": 100,
-            "Categories": "Gift Cards",
-            "Pictures": "0000076_100-physical-gift-card.jpeg"
         }
     ]
 }
