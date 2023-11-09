@@ -1,7 +1,7 @@
 {
     "Products": [
         {
-            "Id": 2,
+            "id": 2,
             "Name": "Digital Storm VANQUISH 3 Custom Performance PC",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -10,7 +10,7 @@
             "Pictures": "0000022_digital-storm-vanquish-3-custom-performance-pc.jpeg"
         },
         {
-            "Id": 4,
+            "id": 4,
             "Name": "Apple MacBook Pro 13-inch",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -19,7 +19,7 @@
             "Pictures": ["0000024_apple-macbook-pro-13-inch.jpeg", "0000025_apple-macbook-pro-13-inch.jpeg"]
         },
         {
-            "Id": 5,
+            "id": 5,
             "Name": "Asus N551JK-XO076H Laptop",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -28,7 +28,7 @@
             "Pictures": "0000026_asus-n551jk-xo076h-laptop.jpeg"
         },
         {
-            "Id": 7,
+            "id": 7,
             "Name": "HP Spectre XT Pro UltraBook",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -37,7 +37,7 @@
             "Pictures": ["0000028_hp-spectre-xt-pro-ultrabook.jpeg", "0000029_hp-spectre-xt-pro-ultrabook.jpeg"]
         },
         {
-            "Id": 8,
+            "id": 8,
             "Name": "HP Envy 6-1180ca 15.6-Inch Sleekbook",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -46,7 +46,7 @@
             "Pictures": "0000030_hp-envy-6-1180ca-156-inch-sleekbook.jpeg"
         },
         {
-            "Id": 9,
+            "id": 9,
             "Name": "Lenovo Thinkpad X1 Carbon Laptop",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -55,7 +55,7 @@
             "Pictures": "0000031_lenovo-thinkpad-x1-carbon-laptop.jpeg"
         },
         {
-            "Id": 10,
+            "id": 10,
             "Name": "Adobe Photoshop CS4",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -64,7 +64,7 @@
             "Pictures": "0000032_adobe-photoshop-cs4.jpeg"
         },
         {
-            "Id": 11,
+            "id": 11,
             "Name": "Windows 8 Pro",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -73,7 +73,7 @@
             "Pictures": "0000033_windows-8-pro.jpeg"
         },
         {
-            "Id": 12,
+            "id": 12,
             "Name": "Sound Forge Pro 11 (recurring)",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -82,7 +82,7 @@
             "Pictures": "0000034_sound-forge-pro-11-recurring.jpeg"
         },
         {
-            "Id": 13,
+            "id": 13,
             "Name": "Nikon D5500 DSLR",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -91,7 +91,7 @@
             "Pictures": ["0000035_nikon-d5500-dslr.jpeg", "0000036_nikon-d5500-dslr.jpeg"]
         },
         {
-            "Id": 14,
+            "id": 14,
             "Name": "Nikon D5500 DSLR - Black",
             "MainProductId": 12,
             "IsShipEnabled": true,
@@ -99,7 +99,7 @@
             "Pictures": "0000037_nikon-d5500-dslr-black.jpeg"
         },
         {
-            "Id": 16,
+            "id": 16,
             "Name": "Leica T Mirrorless Digital Camera",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -108,7 +108,7 @@
             "Pictures": "0000039_leica-t-mirrorless-digital-camera.jpeg"
         },
         {
-            "Id": 18,
+            "id": 18,
             "Name": "HTC One M8 Android L 5.0 Lollipop",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -117,7 +117,7 @@
             "Pictures": "0000041_htc-one-m8-android-l-50-lollipop.jpeg"
         },
         {
-            "Id": 19,
+            "id": 19,
             "Name": "HTC One Mini Blue",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -126,7 +126,7 @@
             "Pictures": ["0000042_htc-one-mini-blue.jpeg", "0000043_htc-one-mini-blue.jpeg"]
         },
         {
-            "Id": 20,
+            "id": 20,
             "Name": "Nokia Lumia 1020",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -135,7 +135,7 @@
             "Pictures": "0000044_nokia-lumia-1020.jpeg"
         },
         {
-            "Id": 21,
+            "id": 21,
             "Name": "Beats Pill 2.0 Wireless Speaker",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -144,7 +144,7 @@
             "Pictures": ["0000045_beats-pill-20-wireless-speaker.jpeg", "0000046_beats-pill-20-wireless-speaker.jpeg"]
         },
         {
-            "Id": 22,
+            "id": 22,
             "Name": "Universal 7-8 Inch Tablet Cover",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -153,7 +153,7 @@
             "Pictures": "0000047_universal-7-8-inch-tablet-cover.jpeg"
         },
         {
-            "Id": 23,
+            "id": 23,
             "Name": "Portable Sound Speakers",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -162,7 +162,7 @@
             "Pictures": "0000048_portable-sound-speakers.jpeg"
         },
         {
-            "Id": 25,
+            "id": 25,
             "Name": "adidas Consortium Campus 80s Running Shoes",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -171,7 +171,7 @@
             "Pictures": ["0000053_adidas-consortium-campus-80s-running-shoes.jpeg", "0000054_adidas-consortium-campus-80s-running-shoes.jpeg", "0000055_adidas-consortium-campus-80s-running-shoes.jpeg"]
         },
         {
-            "Id": 26,
+            "id": 26,
             "Name": "Nike SB Zoom Stefan Janoski \"Medium Mint\"",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -180,7 +180,7 @@
             "Pictures": "0000056_nike-sb-zoom-stefan-janoski-medium-mint.jpeg"
         },
         {
-            "Id": 27,
+            "id": 27,
             "Name": "Nike Tailwind Loose Short-Sleeve Running Shirt",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -189,7 +189,7 @@
             "Pictures": "0000057_nike-tailwind-loose-short-sleeve-running-shirt.jpeg"
         },
         {
-            "Id": 30,
+            "id": 30,
             "Name": "Levi's 511 Jeans",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -198,7 +198,7 @@
             "Pictures": ["0000060_levis-511-jeans.jpeg", "0000061_levis-511-jeans.jpeg"]
         },
         {
-            "Id": 31,
+            "id": 31,
             "Name": "Obey Propaganda Hat",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -207,7 +207,7 @@
             "Pictures": "0000062_obey-propaganda-hat.jpeg"
         },
         {
-            "Id": 35,
+            "id": 35,
             "Name": "If You Wait (donation)",
             "MainProductId": "null",
             "IsShipEnabled": false,
@@ -216,7 +216,7 @@
             "Pictures": "0000066_if-you-wait-donation.jpeg"
         },
         {
-            "Id": 36,
+            "id": 36,
             "Name": "Science & Faith",
             "MainProductId": "null",
             "IsShipEnabled": false,
@@ -225,7 +225,7 @@
             "Pictures": "0000067_science-faith.jpeg"
         },
         {
-            "Id": 37,
+            "id": 37,
             "Name": "Fahrenheit 451 by Ray Bradbury",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -234,7 +234,7 @@
             "Pictures": "0000068_fahrenheit-451-by-ray-bradbury.jpeg"
         },
         {
-            "Id": 38,
+            "id": 38,
             "Name": "First Prize Pies",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -243,7 +243,7 @@
             "Pictures": "0000069_first-prize-pies.jpeg"
         },
         {
-            "Id": 40,
+            "id": 40,
             "Name": "Elegant Gemstone Necklace (rental)",
             "MainProductId": "null",
             "IsShipEnabled": true,
@@ -252,7 +252,7 @@
             "Pictures": "0000071_elegant-gemstone-necklace-rental.jpeg"
         },
         {
-            "Id": 43,
+            "id": 43,
             "Name": "$25 Virtual Gift Card",
             "MainProductId": "null",
             "IsShipEnabled": false,
@@ -261,7 +261,7 @@
             "Pictures": "0000074_25-virtual-gift-card.jpeg"
         },
         {
-            "Id": 44,
+            "id": 44,
             "Name": "$50 Physical Gift Card",
             "MainProductId": "null",
             "IsShipEnabled": true,
