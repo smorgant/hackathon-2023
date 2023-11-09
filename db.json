@@ -91,14 +91,6 @@
             "Pictures": ["0000035_nikon-d5500-dslr.jpeg", "0000036_nikon-d5500-dslr.jpeg"]
         },
         {
-            "ProductId": 14,
-            "Name": "Nikon D5500 DSLR - Black",
-            "MainProductId": 12,
-            "IsShipEnabled": true,
-            "Price": 670,
-            "Pictures": "0000037_nikon-d5500-dslr-black.jpeg"
-        },
-        {
             "ProductId": 16,
             "Name": "Leica T Mirrorless Digital Camera",
             "MainProductId": "null",
